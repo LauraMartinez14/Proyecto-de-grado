@@ -1,0 +1,2596 @@
+{
+  "data": [
+      {
+          "id": 1,
+          "temperature": 10,
+          "humidity": 10,
+          "createdAt": "2025-04-11T04:06:34.000Z",
+          "updatedAt": "2025-04-11T04:10:40.000Z"
+      },
+      {
+          "id": 2,
+          "temperature": 33,
+          "humidity": 40,
+          "createdAt": "2025-04-11T04:09:25.000Z",
+          "updatedAt": "2025-04-11T04:09:25.000Z"
+      },
+      {
+          "id": 3,
+          "temperature": 200,
+          "humidity": 200,
+          "createdAt": "2025-04-11T04:09:39.000Z",
+          "updatedAt": "2025-04-11T04:23:36.000Z"
+      },
+      {
+          "id": 4,
+          "temperature": 33,
+          "humidity": 40,
+          "createdAt": "2025-04-15T18:23:27.000Z",
+          "updatedAt": "2025-04-15T18:23:27.000Z"
+      },
+      {
+          "id": 5,
+          "temperature": 27.4305,
+          "humidity": 36.1013,
+          "createdAt": "2025-04-15T19:15:41.000Z",
+          "updatedAt": "2025-04-15T19:15:41.000Z"
+      },
+      {
+          "id": 6,
+          "temperature": 26.0496,
+          "humidity": 38.6327,
+          "createdAt": "2025-04-15T19:17:39.000Z",
+          "updatedAt": "2025-04-15T19:17:39.000Z"
+      },
+      {
+          "id": 7,
+          "temperature": 26.0235,
+          "humidity": 38.5182,
+          "createdAt": "2025-04-15T19:17:47.000Z",
+          "updatedAt": "2025-04-15T19:17:47.000Z"
+      },
+      {
+          "id": 8,
+          "temperature": 25.9954,
+          "humidity": 38.8764,
+          "createdAt": "2025-04-15T19:17:52.000Z",
+          "updatedAt": "2025-04-15T19:17:52.000Z"
+      },
+      {
+          "id": 9,
+          "temperature": 25.9941,
+          "humidity": 39.0349,
+          "createdAt": "2025-04-15T19:17:58.000Z",
+          "updatedAt": "2025-04-15T19:17:58.000Z"
+      },
+      {
+          "id": 10,
+          "temperature": 25.9804,
+          "humidity": 39.1374,
+          "createdAt": "2025-04-15T19:18:03.000Z",
+          "updatedAt": "2025-04-15T19:18:03.000Z"
+      },
+      {
+          "id": 11,
+          "temperature": 25.9554,
+          "humidity": 39.1681,
+          "createdAt": "2025-04-15T19:18:08.000Z",
+          "updatedAt": "2025-04-15T19:18:08.000Z"
+      },
+      {
+          "id": 12,
+          "temperature": 25.9472,
+          "humidity": 39.1935,
+          "createdAt": "2025-04-15T19:18:13.000Z",
+          "updatedAt": "2025-04-15T19:18:13.000Z"
+      },
+      {
+          "id": 13,
+          "temperature": 25.9377,
+          "humidity": 39.1709,
+          "createdAt": "2025-04-15T19:18:21.000Z",
+          "updatedAt": "2025-04-15T19:18:21.000Z"
+      },
+      {
+          "id": 14,
+          "temperature": 25.8905,
+          "humidity": 39.1962,
+          "createdAt": "2025-04-15T19:18:27.000Z",
+          "updatedAt": "2025-04-15T19:18:27.000Z"
+      },
+      {
+          "id": 15,
+          "temperature": 25.9087,
+          "humidity": 39.2118,
+          "createdAt": "2025-04-15T19:18:32.000Z",
+          "updatedAt": "2025-04-15T19:18:32.000Z"
+      },
+      {
+          "id": 16,
+          "temperature": 25.8827,
+          "humidity": 39.3187,
+          "createdAt": "2025-04-15T19:18:37.000Z",
+          "updatedAt": "2025-04-15T19:18:37.000Z"
+      },
+      {
+          "id": 17,
+          "temperature": 25.8947,
+          "humidity": 39.3255,
+          "createdAt": "2025-04-15T19:18:42.000Z",
+          "updatedAt": "2025-04-15T19:18:42.000Z"
+      },
+      {
+          "id": 18,
+          "temperature": 25.8774,
+          "humidity": 39.3427,
+          "createdAt": "2025-04-15T19:18:47.000Z",
+          "updatedAt": "2025-04-15T19:18:47.000Z"
+      },
+      {
+          "id": 19,
+          "temperature": 25.8955,
+          "humidity": 39.5144,
+          "createdAt": "2025-04-15T19:18:53.000Z",
+          "updatedAt": "2025-04-15T19:18:53.000Z"
+      },
+      {
+          "id": 20,
+          "temperature": 25.9031,
+          "humidity": 39.6832,
+          "createdAt": "2025-04-15T19:18:58.000Z",
+          "updatedAt": "2025-04-15T19:18:58.000Z"
+      },
+      {
+          "id": 21,
+          "temperature": 25.8644,
+          "humidity": 39.8039,
+          "createdAt": "2025-04-15T19:19:03.000Z",
+          "updatedAt": "2025-04-15T19:19:03.000Z"
+      },
+      {
+          "id": 22,
+          "temperature": 25.8636,
+          "humidity": 39.8155,
+          "createdAt": "2025-04-15T19:19:11.000Z",
+          "updatedAt": "2025-04-15T19:19:11.000Z"
+      },
+      {
+          "id": 23,
+          "temperature": 25.8474,
+          "humidity": 39.8325,
+          "createdAt": "2025-04-15T19:19:16.000Z",
+          "updatedAt": "2025-04-15T19:19:16.000Z"
+      },
+      {
+          "id": 24,
+          "temperature": 25.8154,
+          "humidity": 39.7295,
+          "createdAt": "2025-04-15T19:19:22.000Z",
+          "updatedAt": "2025-04-15T19:19:22.000Z"
+      },
+      {
+          "id": 25,
+          "temperature": 25.8055,
+          "humidity": 39.6895,
+          "createdAt": "2025-04-15T19:19:27.000Z",
+          "updatedAt": "2025-04-15T19:19:27.000Z"
+      },
+      {
+          "id": 26,
+          "temperature": 25.8396,
+          "humidity": 39.6504,
+          "createdAt": "2025-04-15T19:19:33.000Z",
+          "updatedAt": "2025-04-15T19:19:33.000Z"
+      },
+      {
+          "id": 27,
+          "temperature": 25.8205,
+          "humidity": 39.6956,
+          "createdAt": "2025-04-15T19:19:38.000Z",
+          "updatedAt": "2025-04-15T19:19:38.000Z"
+      },
+      {
+          "id": 28,
+          "temperature": 25.812,
+          "humidity": 39.8031,
+          "createdAt": "2025-04-15T19:19:43.000Z",
+          "updatedAt": "2025-04-15T19:19:43.000Z"
+      },
+      {
+          "id": 29,
+          "temperature": 25.8055,
+          "humidity": 39.7971,
+          "createdAt": "2025-04-15T19:19:48.000Z",
+          "updatedAt": "2025-04-15T19:19:48.000Z"
+      },
+      {
+          "id": 30,
+          "temperature": 25.7885,
+          "humidity": 39.7773,
+          "createdAt": "2025-04-15T19:19:54.000Z",
+          "updatedAt": "2025-04-15T19:19:54.000Z"
+      },
+      {
+          "id": 31,
+          "temperature": 25.7925,
+          "humidity": 39.8264,
+          "createdAt": "2025-04-15T19:19:59.000Z",
+          "updatedAt": "2025-04-15T19:19:59.000Z"
+      },
+      {
+          "id": 32,
+          "temperature": 25.7696,
+          "humidity": 39.8333,
+          "createdAt": "2025-04-15T19:20:13.000Z",
+          "updatedAt": "2025-04-15T19:20:13.000Z"
+      },
+      {
+          "id": 33,
+          "temperature": 25.7513,
+          "humidity": 39.9277,
+          "createdAt": "2025-04-15T19:20:14.000Z",
+          "updatedAt": "2025-04-15T19:20:14.000Z"
+      },
+      {
+          "id": 34,
+          "temperature": 25.7317,
+          "humidity": 40.0304,
+          "createdAt": "2025-04-15T19:20:20.000Z",
+          "updatedAt": "2025-04-15T19:20:20.000Z"
+      },
+      {
+          "id": 35,
+          "temperature": 25.7227,
+          "humidity": 40.0167,
+          "createdAt": "2025-04-15T19:20:25.000Z",
+          "updatedAt": "2025-04-15T19:20:25.000Z"
+      },
+      {
+          "id": 36,
+          "temperature": 25.7238,
+          "humidity": 40.1308,
+          "createdAt": "2025-04-15T19:20:30.000Z",
+          "updatedAt": "2025-04-15T19:20:30.000Z"
+      },
+      {
+          "id": 37,
+          "temperature": 25.7145,
+          "humidity": 40.0408,
+          "createdAt": "2025-04-15T19:20:35.000Z",
+          "updatedAt": "2025-04-15T19:20:35.000Z"
+      },
+      {
+          "id": 38,
+          "temperature": 25.7151,
+          "humidity": 39.9659,
+          "createdAt": "2025-04-15T19:20:40.000Z",
+          "updatedAt": "2025-04-15T19:20:40.000Z"
+      },
+      {
+          "id": 39,
+          "temperature": 25.6811,
+          "humidity": 39.9388,
+          "createdAt": "2025-04-15T19:20:45.000Z",
+          "updatedAt": "2025-04-15T19:20:45.000Z"
+      },
+      {
+          "id": 40,
+          "temperature": 25.6956,
+          "humidity": 39.8328,
+          "createdAt": "2025-04-15T19:20:50.000Z",
+          "updatedAt": "2025-04-15T19:20:50.000Z"
+      },
+      {
+          "id": 41,
+          "temperature": 25.6828,
+          "humidity": 39.7965,
+          "createdAt": "2025-04-15T19:20:56.000Z",
+          "updatedAt": "2025-04-15T19:20:56.000Z"
+      },
+      {
+          "id": 42,
+          "temperature": 25.6935,
+          "humidity": 40.005,
+          "createdAt": "2025-04-15T19:21:01.000Z",
+          "updatedAt": "2025-04-15T19:21:01.000Z"
+      },
+      {
+          "id": 43,
+          "temperature": 25.7076,
+          "humidity": 40.0713,
+          "createdAt": "2025-04-15T19:21:06.000Z",
+          "updatedAt": "2025-04-15T19:21:06.000Z"
+      },
+      {
+          "id": 44,
+          "temperature": 25.6763,
+          "humidity": 40.0778,
+          "createdAt": "2025-04-15T19:21:11.000Z",
+          "updatedAt": "2025-04-15T19:21:11.000Z"
+      },
+      {
+          "id": 45,
+          "temperature": 25.6836,
+          "humidity": 40.1654,
+          "createdAt": "2025-04-15T19:21:16.000Z",
+          "updatedAt": "2025-04-15T19:21:16.000Z"
+      },
+      {
+          "id": 46,
+          "temperature": 25.662,
+          "humidity": 40.1393,
+          "createdAt": "2025-04-15T19:21:21.000Z",
+          "updatedAt": "2025-04-15T19:21:21.000Z"
+      },
+      {
+          "id": 47,
+          "temperature": 25.6804,
+          "humidity": 40.0919,
+          "createdAt": "2025-04-15T19:21:27.000Z",
+          "updatedAt": "2025-04-15T19:21:27.000Z"
+      },
+      {
+          "id": 48,
+          "temperature": 25.6723,
+          "humidity": 40.1963,
+          "createdAt": "2025-04-15T19:21:32.000Z",
+          "updatedAt": "2025-04-15T19:21:32.000Z"
+      },
+      {
+          "id": 49,
+          "temperature": 25.6365,
+          "humidity": 40.1688,
+          "createdAt": "2025-04-15T19:21:37.000Z",
+          "updatedAt": "2025-04-15T19:21:37.000Z"
+      },
+      {
+          "id": 50,
+          "temperature": 25.6472,
+          "humidity": 40.2527,
+          "createdAt": "2025-04-15T19:21:42.000Z",
+          "updatedAt": "2025-04-15T19:21:42.000Z"
+      },
+      {
+          "id": 51,
+          "temperature": 25.6598,
+          "humidity": 40.274,
+          "createdAt": "2025-04-15T19:21:47.000Z",
+          "updatedAt": "2025-04-15T19:21:47.000Z"
+      },
+      {
+          "id": 52,
+          "temperature": 25.6554,
+          "humidity": 40.3267,
+          "createdAt": "2025-04-15T19:21:53.000Z",
+          "updatedAt": "2025-04-15T19:21:53.000Z"
+      },
+      {
+          "id": 53,
+          "temperature": 25.6449,
+          "humidity": 40.1919,
+          "createdAt": "2025-04-15T19:21:58.000Z",
+          "updatedAt": "2025-04-15T19:21:58.000Z"
+      },
+      {
+          "id": 54,
+          "temperature": 25.6432,
+          "humidity": 40.1474,
+          "createdAt": "2025-04-15T19:22:03.000Z",
+          "updatedAt": "2025-04-15T19:22:03.000Z"
+      },
+      {
+          "id": 55,
+          "temperature": 25.6454,
+          "humidity": 40.1739,
+          "createdAt": "2025-04-15T19:22:08.000Z",
+          "updatedAt": "2025-04-15T19:22:08.000Z"
+      },
+      {
+          "id": 56,
+          "temperature": 25.6598,
+          "humidity": 40.1739,
+          "createdAt": "2025-04-15T19:22:13.000Z",
+          "updatedAt": "2025-04-15T19:22:13.000Z"
+      },
+      {
+          "id": 57,
+          "temperature": 25.6529,
+          "humidity": 40.1667,
+          "createdAt": "2025-04-15T19:22:18.000Z",
+          "updatedAt": "2025-04-15T19:22:18.000Z"
+      },
+      {
+          "id": 58,
+          "temperature": 25.6332,
+          "humidity": 40.1675,
+          "createdAt": "2025-04-15T19:22:24.000Z",
+          "updatedAt": "2025-04-15T19:22:24.000Z"
+      },
+      {
+          "id": 59,
+          "temperature": 25.6628,
+          "humidity": 40.1232,
+          "createdAt": "2025-04-15T19:22:29.000Z",
+          "updatedAt": "2025-04-15T19:22:29.000Z"
+      },
+      {
+          "id": 60,
+          "temperature": 25.6239,
+          "humidity": 40.1094,
+          "createdAt": "2025-04-15T19:22:34.000Z",
+          "updatedAt": "2025-04-15T19:22:34.000Z"
+      },
+      {
+          "id": 61,
+          "temperature": 25.6472,
+          "humidity": 40.0933,
+          "createdAt": "2025-04-15T19:22:39.000Z",
+          "updatedAt": "2025-04-15T19:22:39.000Z"
+      },
+      {
+          "id": 62,
+          "temperature": 25.6411,
+          "humidity": 40.0612,
+          "createdAt": "2025-04-15T19:22:44.000Z",
+          "updatedAt": "2025-04-15T19:22:44.000Z"
+      },
+      {
+          "id": 63,
+          "temperature": 25.6474,
+          "humidity": 40.053,
+          "createdAt": "2025-04-15T19:22:52.000Z",
+          "updatedAt": "2025-04-15T19:22:52.000Z"
+      },
+      {
+          "id": 64,
+          "temperature": 25.6584,
+          "humidity": 40.1229,
+          "createdAt": "2025-04-15T19:23:00.000Z",
+          "updatedAt": "2025-04-15T19:23:00.000Z"
+      },
+      {
+          "id": 65,
+          "temperature": 25.6496,
+          "humidity": 40.0873,
+          "createdAt": "2025-04-15T19:23:05.000Z",
+          "updatedAt": "2025-04-15T19:23:05.000Z"
+      },
+      {
+          "id": 66,
+          "temperature": 25.6195,
+          "humidity": 40.0705,
+          "createdAt": "2025-04-15T19:23:10.000Z",
+          "updatedAt": "2025-04-15T19:23:10.000Z"
+      },
+      {
+          "id": 67,
+          "temperature": 25.6187,
+          "humidity": 40.0875,
+          "createdAt": "2025-04-15T19:23:15.000Z",
+          "updatedAt": "2025-04-15T19:23:15.000Z"
+      },
+      {
+          "id": 68,
+          "temperature": 25.6203,
+          "humidity": 40.0783,
+          "createdAt": "2025-04-15T19:23:20.000Z",
+          "updatedAt": "2025-04-15T19:23:20.000Z"
+      },
+      {
+          "id": 69,
+          "temperature": 25.6187,
+          "humidity": 40.0564,
+          "createdAt": "2025-04-15T19:23:26.000Z",
+          "updatedAt": "2025-04-15T19:23:26.000Z"
+      },
+      {
+          "id": 70,
+          "temperature": 25.625,
+          "humidity": 40.0852,
+          "createdAt": "2025-04-15T19:23:31.000Z",
+          "updatedAt": "2025-04-15T19:23:31.000Z"
+      },
+      {
+          "id": 71,
+          "temperature": 25.618,
+          "humidity": 40.0481,
+          "createdAt": "2025-04-15T19:23:36.000Z",
+          "updatedAt": "2025-04-15T19:23:36.000Z"
+      },
+      {
+          "id": 72,
+          "temperature": 25.6243,
+          "humidity": 40.0515,
+          "createdAt": "2025-04-15T19:23:41.000Z",
+          "updatedAt": "2025-04-15T19:23:41.000Z"
+      },
+      {
+          "id": 73,
+          "temperature": 25.6489,
+          "humidity": 40.2184,
+          "createdAt": "2025-04-15T19:23:47.000Z",
+          "updatedAt": "2025-04-15T19:23:47.000Z"
+      },
+      {
+          "id": 74,
+          "temperature": 25.6468,
+          "humidity": 40.1199,
+          "createdAt": "2025-04-15T19:23:52.000Z",
+          "updatedAt": "2025-04-15T19:23:52.000Z"
+      },
+      {
+          "id": 75,
+          "temperature": 25.6603,
+          "humidity": 40.1608,
+          "createdAt": "2025-04-15T19:23:58.000Z",
+          "updatedAt": "2025-04-15T19:23:58.000Z"
+      },
+      {
+          "id": 76,
+          "temperature": 25.6403,
+          "humidity": 40.4135,
+          "createdAt": "2025-04-15T19:24:03.000Z",
+          "updatedAt": "2025-04-15T19:24:03.000Z"
+      },
+      {
+          "id": 77,
+          "temperature": 25.634,
+          "humidity": 40.5346,
+          "createdAt": "2025-04-15T19:24:09.000Z",
+          "updatedAt": "2025-04-15T19:24:09.000Z"
+      },
+      {
+          "id": 78,
+          "temperature": 25.6483,
+          "humidity": 40.5434,
+          "createdAt": "2025-04-15T19:24:14.000Z",
+          "updatedAt": "2025-04-15T19:24:14.000Z"
+      },
+      {
+          "id": 79,
+          "temperature": 25.6281,
+          "humidity": 40.344,
+          "createdAt": "2025-04-15T19:24:20.000Z",
+          "updatedAt": "2025-04-15T19:24:20.000Z"
+      },
+      {
+          "id": 80,
+          "temperature": 25.6227,
+          "humidity": 40.3861,
+          "createdAt": "2025-04-15T19:24:25.000Z",
+          "updatedAt": "2025-04-15T19:24:25.000Z"
+      },
+      {
+          "id": 81,
+          "temperature": 25.6117,
+          "humidity": 40.3589,
+          "createdAt": "2025-04-15T19:24:31.000Z",
+          "updatedAt": "2025-04-15T19:24:31.000Z"
+      },
+      {
+          "id": 82,
+          "temperature": 25.6046,
+          "humidity": 40.2633,
+          "createdAt": "2025-04-15T19:24:38.000Z",
+          "updatedAt": "2025-04-15T19:24:38.000Z"
+      },
+      {
+          "id": 83,
+          "temperature": 25.6002,
+          "humidity": 40.2564,
+          "createdAt": "2025-04-15T19:24:44.000Z",
+          "updatedAt": "2025-04-15T19:24:44.000Z"
+      },
+      {
+          "id": 84,
+          "temperature": 25.6115,
+          "humidity": 40.273,
+          "createdAt": "2025-04-15T19:24:49.000Z",
+          "updatedAt": "2025-04-15T19:24:49.000Z"
+      },
+      {
+          "id": 85,
+          "temperature": 25.5888,
+          "humidity": 40.2875,
+          "createdAt": "2025-04-15T19:24:54.000Z",
+          "updatedAt": "2025-04-15T19:24:54.000Z"
+      },
+      {
+          "id": 86,
+          "temperature": 25.5819,
+          "humidity": 40.3601,
+          "createdAt": "2025-04-15T19:25:00.000Z",
+          "updatedAt": "2025-04-15T19:25:00.000Z"
+      },
+      {
+          "id": 87,
+          "temperature": 25.6403,
+          "humidity": 40.4763,
+          "createdAt": "2025-04-15T19:25:05.000Z",
+          "updatedAt": "2025-04-15T19:25:05.000Z"
+      },
+      {
+          "id": 88,
+          "temperature": 25.6357,
+          "humidity": 40.5114,
+          "createdAt": "2025-04-15T19:25:11.000Z",
+          "updatedAt": "2025-04-15T19:25:11.000Z"
+      },
+      {
+          "id": 89,
+          "temperature": 25.6458,
+          "humidity": 40.4879,
+          "createdAt": "2025-04-15T19:25:16.000Z",
+          "updatedAt": "2025-04-15T19:25:16.000Z"
+      },
+      {
+          "id": 90,
+          "temperature": 25.6538,
+          "humidity": 40.4674,
+          "createdAt": "2025-04-15T19:25:21.000Z",
+          "updatedAt": "2025-04-15T19:25:21.000Z"
+      },
+      {
+          "id": 91,
+          "temperature": 25.6502,
+          "humidity": 40.4773,
+          "createdAt": "2025-04-15T19:25:26.000Z",
+          "updatedAt": "2025-04-15T19:25:26.000Z"
+      },
+      {
+          "id": 92,
+          "temperature": 25.6468,
+          "humidity": 40.3272,
+          "createdAt": "2025-04-15T19:25:32.000Z",
+          "updatedAt": "2025-04-15T19:25:32.000Z"
+      },
+      {
+          "id": 93,
+          "temperature": 25.6647,
+          "humidity": 40.3769,
+          "createdAt": "2025-04-15T19:25:37.000Z",
+          "updatedAt": "2025-04-15T19:25:37.000Z"
+      },
+      {
+          "id": 94,
+          "temperature": 25.6824,
+          "humidity": 40.3295,
+          "createdAt": "2025-04-15T19:25:43.000Z",
+          "updatedAt": "2025-04-15T19:25:43.000Z"
+      },
+      {
+          "id": 95,
+          "temperature": 25.7074,
+          "humidity": 40.0552,
+          "createdAt": "2025-04-15T19:25:48.000Z",
+          "updatedAt": "2025-04-15T19:25:48.000Z"
+      },
+      {
+          "id": 96,
+          "temperature": 25.7153,
+          "humidity": 39.9271,
+          "createdAt": "2025-04-15T19:25:53.000Z",
+          "updatedAt": "2025-04-15T19:25:53.000Z"
+      },
+      {
+          "id": 97,
+          "temperature": 25.6823,
+          "humidity": 39.7266,
+          "createdAt": "2025-04-15T19:25:58.000Z",
+          "updatedAt": "2025-04-15T19:25:58.000Z"
+      },
+      {
+          "id": 98,
+          "temperature": 25.6977,
+          "humidity": 39.6176,
+          "createdAt": "2025-04-15T19:26:04.000Z",
+          "updatedAt": "2025-04-15T19:26:04.000Z"
+      },
+      {
+          "id": 99,
+          "temperature": 25.7174,
+          "humidity": 39.6658,
+          "createdAt": "2025-04-15T19:26:09.000Z",
+          "updatedAt": "2025-04-15T19:26:09.000Z"
+      },
+      {
+          "id": 100,
+          "temperature": 25.7204,
+          "humidity": 39.6391,
+          "createdAt": "2025-04-15T19:26:14.000Z",
+          "updatedAt": "2025-04-15T19:26:14.000Z"
+      },
+      {
+          "id": 101,
+          "temperature": 25.7168,
+          "humidity": 39.529,
+          "createdAt": "2025-04-15T19:26:19.000Z",
+          "updatedAt": "2025-04-15T19:26:19.000Z"
+      },
+      {
+          "id": 102,
+          "temperature": 25.6893,
+          "humidity": 39.5124,
+          "createdAt": "2025-04-15T19:26:24.000Z",
+          "updatedAt": "2025-04-15T19:26:24.000Z"
+      },
+      {
+          "id": 103,
+          "temperature": 25.6895,
+          "humidity": 39.4428,
+          "createdAt": "2025-04-15T19:26:29.000Z",
+          "updatedAt": "2025-04-15T19:26:29.000Z"
+      },
+      {
+          "id": 104,
+          "temperature": 25.6926,
+          "humidity": 39.4631,
+          "createdAt": "2025-04-15T19:26:35.000Z",
+          "updatedAt": "2025-04-15T19:26:35.000Z"
+      },
+      {
+          "id": 105,
+          "temperature": 25.6763,
+          "humidity": 39.5157,
+          "createdAt": "2025-04-15T19:26:40.000Z",
+          "updatedAt": "2025-04-15T19:26:40.000Z"
+      },
+      {
+          "id": 106,
+          "temperature": 25.6544,
+          "humidity": 39.5421,
+          "createdAt": "2025-04-15T19:26:45.000Z",
+          "updatedAt": "2025-04-15T19:26:45.000Z"
+      },
+      {
+          "id": 107,
+          "temperature": 25.6536,
+          "humidity": 39.5262,
+          "createdAt": "2025-04-15T19:26:50.000Z",
+          "updatedAt": "2025-04-15T19:26:50.000Z"
+      },
+      {
+          "id": 108,
+          "temperature": 25.6514,
+          "humidity": 39.5333,
+          "createdAt": "2025-04-15T19:26:55.000Z",
+          "updatedAt": "2025-04-15T19:26:55.000Z"
+      },
+      {
+          "id": 109,
+          "temperature": 25.6624,
+          "humidity": 39.682,
+          "createdAt": "2025-04-15T19:27:00.000Z",
+          "updatedAt": "2025-04-15T19:27:00.000Z"
+      },
+      {
+          "id": 110,
+          "temperature": 25.6474,
+          "humidity": 39.6657,
+          "createdAt": "2025-04-15T19:27:09.000Z",
+          "updatedAt": "2025-04-15T19:27:09.000Z"
+      },
+      {
+          "id": 111,
+          "temperature": 25.6525,
+          "humidity": 39.9089,
+          "createdAt": "2025-04-15T19:27:14.000Z",
+          "updatedAt": "2025-04-15T19:27:14.000Z"
+      },
+      {
+          "id": 112,
+          "temperature": 25.6411,
+          "humidity": 39.8175,
+          "createdAt": "2025-04-15T19:27:19.000Z",
+          "updatedAt": "2025-04-15T19:27:19.000Z"
+      },
+      {
+          "id": 113,
+          "temperature": 25.643,
+          "humidity": 39.7561,
+          "createdAt": "2025-04-15T19:27:24.000Z",
+          "updatedAt": "2025-04-15T19:27:24.000Z"
+      },
+      {
+          "id": 114,
+          "temperature": 25.6435,
+          "humidity": 39.7828,
+          "createdAt": "2025-04-15T19:27:29.000Z",
+          "updatedAt": "2025-04-15T19:27:29.000Z"
+      },
+      {
+          "id": 115,
+          "temperature": 27.4305,
+          "humidity": 36.1013,
+          "createdAt": "2025-04-15T19:27:34.000Z",
+          "updatedAt": "2025-04-15T19:27:34.000Z"
+      },
+      {
+          "id": 116,
+          "temperature": 25.6456,
+          "humidity": 39.8231,
+          "createdAt": "2025-04-15T19:27:35.000Z",
+          "updatedAt": "2025-04-15T19:27:35.000Z"
+      },
+      {
+          "id": 117,
+          "temperature": 25.6512,
+          "humidity": 39.8067,
+          "createdAt": "2025-04-15T19:27:42.000Z",
+          "updatedAt": "2025-04-15T19:27:42.000Z"
+      },
+      {
+          "id": 118,
+          "temperature": 25.6392,
+          "humidity": 39.8817,
+          "createdAt": "2025-04-15T19:27:48.000Z",
+          "updatedAt": "2025-04-15T19:27:48.000Z"
+      },
+      {
+          "id": 119,
+          "temperature": 25.6338,
+          "humidity": 40.027,
+          "createdAt": "2025-04-15T19:27:53.000Z",
+          "updatedAt": "2025-04-15T19:27:53.000Z"
+      },
+      {
+          "id": 120,
+          "temperature": 25.6172,
+          "humidity": 39.9457,
+          "createdAt": "2025-04-15T19:27:59.000Z",
+          "updatedAt": "2025-04-15T19:27:59.000Z"
+      },
+      {
+          "id": 121,
+          "temperature": 25.6376,
+          "humidity": 39.9675,
+          "createdAt": "2025-04-15T19:28:05.000Z",
+          "updatedAt": "2025-04-15T19:28:05.000Z"
+      },
+      {
+          "id": 122,
+          "temperature": 25.6182,
+          "humidity": 40.0095,
+          "createdAt": "2025-04-15T19:28:10.000Z",
+          "updatedAt": "2025-04-15T19:28:10.000Z"
+      },
+      {
+          "id": 123,
+          "temperature": 25.6201,
+          "humidity": 39.9886,
+          "createdAt": "2025-04-15T19:28:15.000Z",
+          "updatedAt": "2025-04-15T19:28:15.000Z"
+      },
+      {
+          "id": 124,
+          "temperature": 25.6344,
+          "humidity": 40.0032,
+          "createdAt": "2025-04-15T19:28:21.000Z",
+          "updatedAt": "2025-04-15T19:28:21.000Z"
+      },
+      {
+          "id": 125,
+          "temperature": 25.6397,
+          "humidity": 40.0241,
+          "createdAt": "2025-04-15T19:28:26.000Z",
+          "updatedAt": "2025-04-15T19:28:26.000Z"
+      },
+      {
+          "id": 126,
+          "temperature": 25.6538,
+          "humidity": 40.0175,
+          "createdAt": "2025-04-15T19:28:31.000Z",
+          "updatedAt": "2025-04-15T19:28:31.000Z"
+      },
+      {
+          "id": 127,
+          "temperature": 25.6508,
+          "humidity": 40.0673,
+          "createdAt": "2025-04-15T19:28:36.000Z",
+          "updatedAt": "2025-04-15T19:28:36.000Z"
+      },
+      {
+          "id": 128,
+          "temperature": 25.6453,
+          "humidity": 40.1115,
+          "createdAt": "2025-04-15T19:28:41.000Z",
+          "updatedAt": "2025-04-15T19:28:41.000Z"
+      },
+      {
+          "id": 129,
+          "temperature": 25.6481,
+          "humidity": 40.1727,
+          "createdAt": "2025-04-15T19:28:47.000Z",
+          "updatedAt": "2025-04-15T19:28:47.000Z"
+      },
+      {
+          "id": 130,
+          "temperature": 25.6754,
+          "humidity": 40.3189,
+          "createdAt": "2025-04-15T19:28:52.000Z",
+          "updatedAt": "2025-04-15T19:28:52.000Z"
+      },
+      {
+          "id": 131,
+          "temperature": 25.6672,
+          "humidity": 40.2575,
+          "createdAt": "2025-04-15T19:28:57.000Z",
+          "updatedAt": "2025-04-15T19:28:57.000Z"
+      },
+      {
+          "id": 132,
+          "temperature": 25.6693,
+          "humidity": 40.3347,
+          "createdAt": "2025-04-15T19:29:02.000Z",
+          "updatedAt": "2025-04-15T19:29:02.000Z"
+      },
+      {
+          "id": 133,
+          "temperature": 25.684,
+          "humidity": 40.3419,
+          "createdAt": "2025-04-15T19:29:07.000Z",
+          "updatedAt": "2025-04-15T19:29:07.000Z"
+      },
+      {
+          "id": 134,
+          "temperature": 25.6594,
+          "humidity": 40.3359,
+          "createdAt": "2025-04-15T19:29:15.000Z",
+          "updatedAt": "2025-04-15T19:29:15.000Z"
+      },
+      {
+          "id": 135,
+          "temperature": 25.6681,
+          "humidity": 40.6225,
+          "createdAt": "2025-04-15T19:29:20.000Z",
+          "updatedAt": "2025-04-15T19:29:20.000Z"
+      },
+      {
+          "id": 136,
+          "temperature": 25.6947,
+          "humidity": 40.6368,
+          "createdAt": "2025-04-15T19:29:26.000Z",
+          "updatedAt": "2025-04-15T19:29:26.000Z"
+      },
+      {
+          "id": 137,
+          "temperature": 25.6779,
+          "humidity": 40.4017,
+          "createdAt": "2025-04-15T19:29:33.000Z",
+          "updatedAt": "2025-04-15T19:29:33.000Z"
+      },
+      {
+          "id": 138,
+          "temperature": 25.6954,
+          "humidity": 40.2717,
+          "createdAt": "2025-04-15T19:29:38.000Z",
+          "updatedAt": "2025-04-15T19:29:38.000Z"
+      },
+      {
+          "id": 139,
+          "temperature": 25.6927,
+          "humidity": 40.2557,
+          "createdAt": "2025-04-15T19:29:44.000Z",
+          "updatedAt": "2025-04-15T19:29:44.000Z"
+      },
+      {
+          "id": 140,
+          "temperature": 25.6542,
+          "humidity": 40.1779,
+          "createdAt": "2025-04-15T19:29:49.000Z",
+          "updatedAt": "2025-04-15T19:29:49.000Z"
+      },
+      {
+          "id": 141,
+          "temperature": 25.6884,
+          "humidity": 40.1774,
+          "createdAt": "2025-04-15T19:29:54.000Z",
+          "updatedAt": "2025-04-15T19:29:54.000Z"
+      },
+      {
+          "id": 142,
+          "temperature": 25.6714,
+          "humidity": 40.1318,
+          "createdAt": "2025-04-15T19:30:00.000Z",
+          "updatedAt": "2025-04-15T19:30:00.000Z"
+      },
+      {
+          "id": 143,
+          "temperature": 25.7189,
+          "humidity": 40.1528,
+          "createdAt": "2025-04-15T19:30:05.000Z",
+          "updatedAt": "2025-04-15T19:30:05.000Z"
+      },
+      {
+          "id": 144,
+          "temperature": 25.6689,
+          "humidity": 40.1147,
+          "createdAt": "2025-04-15T19:30:10.000Z",
+          "updatedAt": "2025-04-15T19:30:10.000Z"
+      },
+      {
+          "id": 145,
+          "temperature": 25.6392,
+          "humidity": 40.227,
+          "createdAt": "2025-04-15T19:30:16.000Z",
+          "updatedAt": "2025-04-15T19:30:16.000Z"
+      },
+      {
+          "id": 146,
+          "temperature": 25.6571,
+          "humidity": 40.2107,
+          "createdAt": "2025-04-15T19:30:21.000Z",
+          "updatedAt": "2025-04-15T19:30:21.000Z"
+      },
+      {
+          "id": 147,
+          "temperature": 25.675,
+          "humidity": 40.1126,
+          "createdAt": "2025-04-15T19:30:26.000Z",
+          "updatedAt": "2025-04-15T19:30:26.000Z"
+      },
+      {
+          "id": 148,
+          "temperature": 25.6708,
+          "humidity": 40.1444,
+          "createdAt": "2025-04-15T19:30:34.000Z",
+          "updatedAt": "2025-04-15T19:30:34.000Z"
+      },
+      {
+          "id": 149,
+          "temperature": 25.7019,
+          "humidity": 40.1259,
+          "createdAt": "2025-04-15T19:30:40.000Z",
+          "updatedAt": "2025-04-15T19:30:40.000Z"
+      },
+      {
+          "id": 150,
+          "temperature": 25.7008,
+          "humidity": 40.1203,
+          "createdAt": "2025-04-15T19:30:45.000Z",
+          "updatedAt": "2025-04-15T19:30:45.000Z"
+      },
+      {
+          "id": 151,
+          "temperature": 25.7128,
+          "humidity": 40.1314,
+          "createdAt": "2025-04-15T19:30:50.000Z",
+          "updatedAt": "2025-04-15T19:30:50.000Z"
+      },
+      {
+          "id": 152,
+          "temperature": 25.7177,
+          "humidity": 40.178,
+          "createdAt": "2025-04-15T19:30:55.000Z",
+          "updatedAt": "2025-04-15T19:30:55.000Z"
+      },
+      {
+          "id": 153,
+          "temperature": 25.7343,
+          "humidity": 40.1654,
+          "createdAt": "2025-04-15T19:31:04.000Z",
+          "updatedAt": "2025-04-15T19:31:04.000Z"
+      },
+      {
+          "id": 154,
+          "temperature": 25.7339,
+          "humidity": 40.1404,
+          "createdAt": "2025-04-15T19:31:09.000Z",
+          "updatedAt": "2025-04-15T19:31:09.000Z"
+      },
+      {
+          "id": 155,
+          "temperature": 25.7563,
+          "humidity": 40.0784,
+          "createdAt": "2025-04-15T19:31:15.000Z",
+          "updatedAt": "2025-04-15T19:31:15.000Z"
+      },
+      {
+          "id": 156,
+          "temperature": 25.7246,
+          "humidity": 40.0282,
+          "createdAt": "2025-04-15T19:31:21.000Z",
+          "updatedAt": "2025-04-15T19:31:21.000Z"
+      },
+      {
+          "id": 157,
+          "temperature": 25.725,
+          "humidity": 40.0455,
+          "createdAt": "2025-04-15T19:31:26.000Z",
+          "updatedAt": "2025-04-15T19:31:26.000Z"
+      },
+      {
+          "id": 158,
+          "temperature": 25.7689,
+          "humidity": 40.0055,
+          "createdAt": "2025-04-15T19:31:31.000Z",
+          "updatedAt": "2025-04-15T19:31:31.000Z"
+      },
+      {
+          "id": 159,
+          "temperature": 25.774,
+          "humidity": 40.0034,
+          "createdAt": "2025-04-15T19:31:37.000Z",
+          "updatedAt": "2025-04-15T19:31:37.000Z"
+      },
+      {
+          "id": 160,
+          "temperature": 25.7557,
+          "humidity": 39.9936,
+          "createdAt": "2025-04-15T19:31:42.000Z",
+          "updatedAt": "2025-04-15T19:31:42.000Z"
+      },
+      {
+          "id": 161,
+          "temperature": 25.7786,
+          "humidity": 39.9878,
+          "createdAt": "2025-04-15T19:31:48.000Z",
+          "updatedAt": "2025-04-15T19:31:48.000Z"
+      },
+      {
+          "id": 162,
+          "temperature": 25.7635,
+          "humidity": 39.9973,
+          "createdAt": "2025-04-15T19:31:53.000Z",
+          "updatedAt": "2025-04-15T19:31:53.000Z"
+      },
+      {
+          "id": 163,
+          "temperature": 25.7673,
+          "humidity": 40.0063,
+          "createdAt": "2025-04-15T19:31:58.000Z",
+          "updatedAt": "2025-04-15T19:31:58.000Z"
+      },
+      {
+          "id": 164,
+          "temperature": 25.7641,
+          "humidity": 40.0281,
+          "createdAt": "2025-04-15T19:32:06.000Z",
+          "updatedAt": "2025-04-15T19:32:06.000Z"
+      },
+      {
+          "id": 165,
+          "temperature": 25.7647,
+          "humidity": 40.06,
+          "createdAt": "2025-04-15T19:32:11.000Z",
+          "updatedAt": "2025-04-15T19:32:11.000Z"
+      },
+      {
+          "id": 166,
+          "temperature": 25.7484,
+          "humidity": 40.0606,
+          "createdAt": "2025-04-15T19:32:17.000Z",
+          "updatedAt": "2025-04-15T19:32:17.000Z"
+      },
+      {
+          "id": 167,
+          "temperature": 25.7534,
+          "humidity": 40.0641,
+          "createdAt": "2025-04-15T19:32:22.000Z",
+          "updatedAt": "2025-04-15T19:32:22.000Z"
+      },
+      {
+          "id": 168,
+          "temperature": 25.7433,
+          "humidity": 40.0853,
+          "createdAt": "2025-04-15T19:32:27.000Z",
+          "updatedAt": "2025-04-15T19:32:27.000Z"
+      },
+      {
+          "id": 169,
+          "temperature": 25.7599,
+          "humidity": 40.1598,
+          "createdAt": "2025-04-15T19:32:35.000Z",
+          "updatedAt": "2025-04-15T19:32:35.000Z"
+      },
+      {
+          "id": 170,
+          "temperature": 25.7309,
+          "humidity": 40.2079,
+          "createdAt": "2025-04-15T19:32:40.000Z",
+          "updatedAt": "2025-04-15T19:32:40.000Z"
+      },
+      {
+          "id": 171,
+          "temperature": 25.7528,
+          "humidity": 40.1246,
+          "createdAt": "2025-04-15T19:32:46.000Z",
+          "updatedAt": "2025-04-15T19:32:46.000Z"
+      },
+      {
+          "id": 172,
+          "temperature": 25.7397,
+          "humidity": 40.1068,
+          "createdAt": "2025-04-15T19:32:51.000Z",
+          "updatedAt": "2025-04-15T19:32:51.000Z"
+      },
+      {
+          "id": 173,
+          "temperature": 25.7425,
+          "humidity": 40.0961,
+          "createdAt": "2025-04-15T19:32:56.000Z",
+          "updatedAt": "2025-04-15T19:32:56.000Z"
+      },
+      {
+          "id": 174,
+          "temperature": 25.7528,
+          "humidity": 40.1047,
+          "createdAt": "2025-04-15T19:33:03.000Z",
+          "updatedAt": "2025-04-15T19:33:03.000Z"
+      },
+      {
+          "id": 175,
+          "temperature": 25.7357,
+          "humidity": 40.1426,
+          "createdAt": "2025-04-15T19:33:08.000Z",
+          "updatedAt": "2025-04-15T19:33:08.000Z"
+      },
+      {
+          "id": 176,
+          "temperature": 25.7282,
+          "humidity": 40.1294,
+          "createdAt": "2025-04-15T19:33:13.000Z",
+          "updatedAt": "2025-04-15T19:33:13.000Z"
+      },
+      {
+          "id": 177,
+          "temperature": 25.7059,
+          "humidity": 40.1244,
+          "createdAt": "2025-04-15T19:33:18.000Z",
+          "updatedAt": "2025-04-15T19:33:18.000Z"
+      },
+      {
+          "id": 178,
+          "temperature": 25.7107,
+          "humidity": 40.3193,
+          "createdAt": "2025-04-15T19:33:23.000Z",
+          "updatedAt": "2025-04-15T19:33:23.000Z"
+      },
+      {
+          "id": 179,
+          "temperature": 25.7059,
+          "humidity": 40.3457,
+          "createdAt": "2025-04-15T19:33:28.000Z",
+          "updatedAt": "2025-04-15T19:33:28.000Z"
+      },
+      {
+          "id": 180,
+          "temperature": 25.721,
+          "humidity": 40.345,
+          "createdAt": "2025-04-15T19:33:34.000Z",
+          "updatedAt": "2025-04-15T19:33:34.000Z"
+      },
+      {
+          "id": 181,
+          "temperature": 25.7372,
+          "humidity": 40.3082,
+          "createdAt": "2025-04-15T19:33:39.000Z",
+          "updatedAt": "2025-04-15T19:33:39.000Z"
+      },
+      {
+          "id": 182,
+          "temperature": 25.7185,
+          "humidity": 40.3111,
+          "createdAt": "2025-04-15T19:33:44.000Z",
+          "updatedAt": "2025-04-15T19:33:44.000Z"
+      },
+      {
+          "id": 183,
+          "temperature": 25.7288,
+          "humidity": 40.2694,
+          "createdAt": "2025-04-15T19:33:49.000Z",
+          "updatedAt": "2025-04-15T19:33:49.000Z"
+      },
+      {
+          "id": 184,
+          "temperature": 25.7135,
+          "humidity": 40.2529,
+          "createdAt": "2025-04-15T19:33:54.000Z",
+          "updatedAt": "2025-04-15T19:33:54.000Z"
+      },
+      {
+          "id": 185,
+          "temperature": 25.7214,
+          "humidity": 40.3036,
+          "createdAt": "2025-04-15T19:34:00.000Z",
+          "updatedAt": "2025-04-15T19:34:00.000Z"
+      },
+      {
+          "id": 186,
+          "temperature": 25.7286,
+          "humidity": 40.281,
+          "createdAt": "2025-04-15T19:34:05.000Z",
+          "updatedAt": "2025-04-15T19:34:05.000Z"
+      },
+      {
+          "id": 187,
+          "temperature": 25.7336,
+          "humidity": 40.2876,
+          "createdAt": "2025-04-15T19:34:10.000Z",
+          "updatedAt": "2025-04-15T19:34:10.000Z"
+      },
+      {
+          "id": 188,
+          "temperature": 25.7257,
+          "humidity": 40.2877,
+          "createdAt": "2025-04-15T19:34:15.000Z",
+          "updatedAt": "2025-04-15T19:34:15.000Z"
+      },
+      {
+          "id": 189,
+          "temperature": 25.7381,
+          "humidity": 40.3321,
+          "createdAt": "2025-04-15T19:34:20.000Z",
+          "updatedAt": "2025-04-15T19:34:20.000Z"
+      },
+      {
+          "id": 190,
+          "temperature": 25.7202,
+          "humidity": 40.3524,
+          "createdAt": "2025-04-15T19:34:25.000Z",
+          "updatedAt": "2025-04-15T19:34:25.000Z"
+      },
+      {
+          "id": 191,
+          "temperature": 25.7336,
+          "humidity": 40.4146,
+          "createdAt": "2025-04-15T19:34:30.000Z",
+          "updatedAt": "2025-04-15T19:34:30.000Z"
+      },
+      {
+          "id": 192,
+          "temperature": 25.7469,
+          "humidity": 40.3934,
+          "createdAt": "2025-04-15T19:34:36.000Z",
+          "updatedAt": "2025-04-15T19:34:36.000Z"
+      },
+      {
+          "id": 193,
+          "temperature": 25.7723,
+          "humidity": 40.438,
+          "createdAt": "2025-04-15T19:34:41.000Z",
+          "updatedAt": "2025-04-15T19:34:41.000Z"
+      },
+      {
+          "id": 194,
+          "temperature": 25.7515,
+          "humidity": 40.3797,
+          "createdAt": "2025-04-15T19:34:46.000Z",
+          "updatedAt": "2025-04-15T19:34:46.000Z"
+      },
+      {
+          "id": 195,
+          "temperature": 25.7544,
+          "humidity": 40.3957,
+          "createdAt": "2025-04-15T19:34:51.000Z",
+          "updatedAt": "2025-04-15T19:34:51.000Z"
+      },
+      {
+          "id": 196,
+          "temperature": 25.7654,
+          "humidity": 40.3061,
+          "createdAt": "2025-04-15T19:34:56.000Z",
+          "updatedAt": "2025-04-15T19:34:56.000Z"
+      },
+      {
+          "id": 197,
+          "temperature": 25.7412,
+          "humidity": 40.2905,
+          "createdAt": "2025-04-15T19:35:01.000Z",
+          "updatedAt": "2025-04-15T19:35:01.000Z"
+      },
+      {
+          "id": 198,
+          "temperature": 25.7671,
+          "humidity": 40.3858,
+          "createdAt": "2025-04-15T19:35:07.000Z",
+          "updatedAt": "2025-04-15T19:35:07.000Z"
+      },
+      {
+          "id": 199,
+          "temperature": 25.7555,
+          "humidity": 40.3755,
+          "createdAt": "2025-04-15T19:35:12.000Z",
+          "updatedAt": "2025-04-15T19:35:12.000Z"
+      },
+      {
+          "id": 200,
+          "temperature": 25.7774,
+          "humidity": 40.4777,
+          "createdAt": "2025-04-15T19:35:17.000Z",
+          "updatedAt": "2025-04-15T19:35:17.000Z"
+      },
+      {
+          "id": 201,
+          "temperature": 25.7755,
+          "humidity": 40.4468,
+          "createdAt": "2025-04-15T19:35:22.000Z",
+          "updatedAt": "2025-04-15T19:35:22.000Z"
+      },
+      {
+          "id": 202,
+          "temperature": 25.7706,
+          "humidity": 40.4387,
+          "createdAt": "2025-04-15T19:35:27.000Z",
+          "updatedAt": "2025-04-15T19:35:27.000Z"
+      },
+      {
+          "id": 203,
+          "temperature": 25.7793,
+          "humidity": 40.4535,
+          "createdAt": "2025-04-15T19:35:32.000Z",
+          "updatedAt": "2025-04-15T19:35:32.000Z"
+      },
+      {
+          "id": 204,
+          "temperature": 25.7713,
+          "humidity": 40.6795,
+          "createdAt": "2025-04-15T19:35:38.000Z",
+          "updatedAt": "2025-04-15T19:35:38.000Z"
+      },
+      {
+          "id": 205,
+          "temperature": 25.7782,
+          "humidity": 40.668,
+          "createdAt": "2025-04-15T19:35:43.000Z",
+          "updatedAt": "2025-04-15T19:35:43.000Z"
+      },
+      {
+          "id": 206,
+          "temperature": 25.7734,
+          "humidity": 40.6434,
+          "createdAt": "2025-04-15T19:35:48.000Z",
+          "updatedAt": "2025-04-15T19:35:48.000Z"
+      },
+      {
+          "id": 207,
+          "temperature": 25.7799,
+          "humidity": 40.5246,
+          "createdAt": "2025-04-15T19:35:53.000Z",
+          "updatedAt": "2025-04-15T19:35:53.000Z"
+      },
+      {
+          "id": 208,
+          "temperature": 25.7769,
+          "humidity": 40.5003,
+          "createdAt": "2025-04-15T19:35:59.000Z",
+          "updatedAt": "2025-04-15T19:35:59.000Z"
+      },
+      {
+          "id": 209,
+          "temperature": 25.7555,
+          "humidity": 40.4341,
+          "createdAt": "2025-04-15T19:36:04.000Z",
+          "updatedAt": "2025-04-15T19:36:04.000Z"
+      },
+      {
+          "id": 210,
+          "temperature": 25.7526,
+          "humidity": 40.3763,
+          "createdAt": "2025-04-15T19:36:09.000Z",
+          "updatedAt": "2025-04-15T19:36:09.000Z"
+      },
+      {
+          "id": 211,
+          "temperature": 25.7654,
+          "humidity": 40.531,
+          "createdAt": "2025-04-15T19:36:14.000Z",
+          "updatedAt": "2025-04-15T19:36:14.000Z"
+      },
+      {
+          "id": 212,
+          "temperature": 25.7883,
+          "humidity": 40.5907,
+          "createdAt": "2025-04-15T19:36:20.000Z",
+          "updatedAt": "2025-04-15T19:36:20.000Z"
+      },
+      {
+          "id": 213,
+          "temperature": 25.7862,
+          "humidity": 40.5783,
+          "createdAt": "2025-04-15T19:36:25.000Z",
+          "updatedAt": "2025-04-15T19:36:25.000Z"
+      },
+      {
+          "id": 214,
+          "temperature": 25.8066,
+          "humidity": 40.6307,
+          "createdAt": "2025-04-15T19:36:30.000Z",
+          "updatedAt": "2025-04-15T19:36:30.000Z"
+      },
+      {
+          "id": 215,
+          "temperature": 25.812,
+          "humidity": 40.6674,
+          "createdAt": "2025-04-15T19:36:35.000Z",
+          "updatedAt": "2025-04-15T19:36:35.000Z"
+      },
+      {
+          "id": 216,
+          "temperature": 25.8274,
+          "humidity": 40.5507,
+          "createdAt": "2025-04-15T19:36:40.000Z",
+          "updatedAt": "2025-04-15T19:36:40.000Z"
+      },
+      {
+          "id": 217,
+          "temperature": 25.806,
+          "humidity": 40.5559,
+          "createdAt": "2025-04-15T19:36:46.000Z",
+          "updatedAt": "2025-04-15T19:36:46.000Z"
+      },
+      {
+          "id": 218,
+          "temperature": 25.8068,
+          "humidity": 40.484,
+          "createdAt": "2025-04-15T19:36:51.000Z",
+          "updatedAt": "2025-04-15T19:36:51.000Z"
+      },
+      {
+          "id": 219,
+          "temperature": 25.7992,
+          "humidity": 40.4396,
+          "createdAt": "2025-04-15T19:36:56.000Z",
+          "updatedAt": "2025-04-15T19:36:56.000Z"
+      },
+      {
+          "id": 220,
+          "temperature": 25.8154,
+          "humidity": 40.4632,
+          "createdAt": "2025-04-15T19:37:01.000Z",
+          "updatedAt": "2025-04-15T19:37:01.000Z"
+      },
+      {
+          "id": 221,
+          "temperature": 25.8265,
+          "humidity": 40.4288,
+          "createdAt": "2025-04-15T19:37:06.000Z",
+          "updatedAt": "2025-04-15T19:37:06.000Z"
+      },
+      {
+          "id": 222,
+          "temperature": 25.8101,
+          "humidity": 40.3816,
+          "createdAt": "2025-04-15T19:37:12.000Z",
+          "updatedAt": "2025-04-15T19:37:12.000Z"
+      },
+      {
+          "id": 223,
+          "temperature": 25.812,
+          "humidity": 40.3506,
+          "createdAt": "2025-04-15T19:37:17.000Z",
+          "updatedAt": "2025-04-15T19:37:17.000Z"
+      },
+      {
+          "id": 224,
+          "temperature": 25.8219,
+          "humidity": 40.4034,
+          "createdAt": "2025-04-15T19:37:22.000Z",
+          "updatedAt": "2025-04-15T19:37:22.000Z"
+      },
+      {
+          "id": 225,
+          "temperature": 25.8219,
+          "humidity": 40.4209,
+          "createdAt": "2025-04-15T19:37:27.000Z",
+          "updatedAt": "2025-04-15T19:37:27.000Z"
+      },
+      {
+          "id": 226,
+          "temperature": 25.8249,
+          "humidity": 40.3879,
+          "createdAt": "2025-04-15T19:37:35.000Z",
+          "updatedAt": "2025-04-15T19:37:35.000Z"
+      },
+      {
+          "id": 227,
+          "temperature": 25.8707,
+          "humidity": 40.516,
+          "createdAt": "2025-04-15T19:37:40.000Z",
+          "updatedAt": "2025-04-15T19:37:40.000Z"
+      },
+      {
+          "id": 228,
+          "temperature": 25.873,
+          "humidity": 40.5709,
+          "createdAt": "2025-04-15T19:37:46.000Z",
+          "updatedAt": "2025-04-15T19:37:46.000Z"
+      },
+      {
+          "id": 229,
+          "temperature": 25.876,
+          "humidity": 40.5644,
+          "createdAt": "2025-04-15T19:37:51.000Z",
+          "updatedAt": "2025-04-15T19:37:51.000Z"
+      },
+      {
+          "id": 230,
+          "temperature": 25.8835,
+          "humidity": 40.4294,
+          "createdAt": "2025-04-15T19:37:59.000Z",
+          "updatedAt": "2025-04-15T19:37:59.000Z"
+      },
+      {
+          "id": 231,
+          "temperature": 25.8677,
+          "humidity": 40.2321,
+          "createdAt": "2025-04-15T19:38:04.000Z",
+          "updatedAt": "2025-04-15T19:38:04.000Z"
+      },
+      {
+          "id": 232,
+          "temperature": 25.8717,
+          "humidity": 40.1367,
+          "createdAt": "2025-04-15T19:38:09.000Z",
+          "updatedAt": "2025-04-15T19:38:09.000Z"
+      },
+      {
+          "id": 233,
+          "temperature": 25.8924,
+          "humidity": 40.2133,
+          "createdAt": "2025-04-15T19:38:14.000Z",
+          "updatedAt": "2025-04-15T19:38:14.000Z"
+      },
+      {
+          "id": 234,
+          "temperature": 25.8755,
+          "humidity": 40.0749,
+          "createdAt": "2025-04-15T19:38:20.000Z",
+          "updatedAt": "2025-04-15T19:38:20.000Z"
+      },
+      {
+          "id": 235,
+          "temperature": 25.8976,
+          "humidity": 40.1463,
+          "createdAt": "2025-04-15T19:38:25.000Z",
+          "updatedAt": "2025-04-15T19:38:25.000Z"
+      },
+      {
+          "id": 236,
+          "temperature": 25.8947,
+          "humidity": 40.0263,
+          "createdAt": "2025-04-15T19:38:30.000Z",
+          "updatedAt": "2025-04-15T19:38:30.000Z"
+      },
+      {
+          "id": 237,
+          "temperature": 25.8953,
+          "humidity": 40.1011,
+          "createdAt": "2025-04-15T19:38:35.000Z",
+          "updatedAt": "2025-04-15T19:38:35.000Z"
+      },
+      {
+          "id": 238,
+          "temperature": 25.905,
+          "humidity": 40.0691,
+          "createdAt": "2025-04-15T19:38:40.000Z",
+          "updatedAt": "2025-04-15T19:38:40.000Z"
+      },
+      {
+          "id": 239,
+          "temperature": 25.9029,
+          "humidity": 40.1497,
+          "createdAt": "2025-04-15T19:38:45.000Z",
+          "updatedAt": "2025-04-15T19:38:45.000Z"
+      },
+      {
+          "id": 240,
+          "temperature": 25.8917,
+          "humidity": 40.168,
+          "createdAt": "2025-04-15T19:38:51.000Z",
+          "updatedAt": "2025-04-15T19:38:51.000Z"
+      },
+      {
+          "id": 241,
+          "temperature": 25.9209,
+          "humidity": 40.2669,
+          "createdAt": "2025-04-15T19:38:56.000Z",
+          "updatedAt": "2025-04-15T19:38:56.000Z"
+      },
+      {
+          "id": 242,
+          "temperature": 25.9102,
+          "humidity": 40.2365,
+          "createdAt": "2025-04-15T19:39:01.000Z",
+          "updatedAt": "2025-04-15T19:39:01.000Z"
+      },
+      {
+          "id": 243,
+          "temperature": 25.9045,
+          "humidity": 40.1735,
+          "createdAt": "2025-04-15T19:39:06.000Z",
+          "updatedAt": "2025-04-15T19:39:06.000Z"
+      },
+      {
+          "id": 244,
+          "temperature": 25.9138,
+          "humidity": 40.119,
+          "createdAt": "2025-04-15T19:39:11.000Z",
+          "updatedAt": "2025-04-15T19:39:11.000Z"
+      },
+      {
+          "id": 245,
+          "temperature": 25.8991,
+          "humidity": 40.1553,
+          "createdAt": "2025-04-15T19:39:16.000Z",
+          "updatedAt": "2025-04-15T19:39:16.000Z"
+      },
+      {
+          "id": 246,
+          "temperature": 25.9037,
+          "humidity": 40.1935,
+          "createdAt": "2025-04-15T19:39:22.000Z",
+          "updatedAt": "2025-04-15T19:39:22.000Z"
+      },
+      {
+          "id": 247,
+          "temperature": 25.9081,
+          "humidity": 40.2414,
+          "createdAt": "2025-04-15T19:39:27.000Z",
+          "updatedAt": "2025-04-15T19:39:27.000Z"
+      },
+      {
+          "id": 248,
+          "temperature": 25.9113,
+          "humidity": 40.2225,
+          "createdAt": "2025-04-15T19:39:35.000Z",
+          "updatedAt": "2025-04-15T19:39:35.000Z"
+      },
+      {
+          "id": 249,
+          "temperature": 25.9048,
+          "humidity": 40.1661,
+          "createdAt": "2025-04-15T19:39:40.000Z",
+          "updatedAt": "2025-04-15T19:39:40.000Z"
+      },
+      {
+          "id": 250,
+          "temperature": 25.9075,
+          "humidity": 40.2205,
+          "createdAt": "2025-04-15T19:39:46.000Z",
+          "updatedAt": "2025-04-15T19:39:46.000Z"
+      },
+      {
+          "id": 251,
+          "temperature": 25.9096,
+          "humidity": 40.0912,
+          "createdAt": "2025-04-15T19:39:51.000Z",
+          "updatedAt": "2025-04-15T19:39:51.000Z"
+      },
+      {
+          "id": 252,
+          "temperature": 25.9106,
+          "humidity": 39.9944,
+          "createdAt": "2025-04-15T19:39:57.000Z",
+          "updatedAt": "2025-04-15T19:39:57.000Z"
+      },
+      {
+          "id": 253,
+          "temperature": 25.9407,
+          "humidity": 40.0618,
+          "createdAt": "2025-04-15T19:40:02.000Z",
+          "updatedAt": "2025-04-15T19:40:02.000Z"
+      },
+      {
+          "id": 254,
+          "temperature": 25.9459,
+          "humidity": 40.1233,
+          "createdAt": "2025-04-15T19:40:07.000Z",
+          "updatedAt": "2025-04-15T19:40:07.000Z"
+      },
+      {
+          "id": 255,
+          "temperature": 25.9674,
+          "humidity": 39.9635,
+          "createdAt": "2025-04-15T19:40:12.000Z",
+          "updatedAt": "2025-04-15T19:40:12.000Z"
+      },
+      {
+          "id": 256,
+          "temperature": 25.9676,
+          "humidity": 39.8764,
+          "createdAt": "2025-04-15T19:40:17.000Z",
+          "updatedAt": "2025-04-15T19:40:17.000Z"
+      },
+      {
+          "id": 257,
+          "temperature": 25.9386,
+          "humidity": 40.01,
+          "createdAt": "2025-04-15T19:40:22.000Z",
+          "updatedAt": "2025-04-15T19:40:22.000Z"
+      },
+      {
+          "id": 258,
+          "temperature": 25.9636,
+          "humidity": 39.9781,
+          "createdAt": "2025-04-15T19:40:28.000Z",
+          "updatedAt": "2025-04-15T19:40:28.000Z"
+      },
+      {
+          "id": 259,
+          "temperature": 25.9573,
+          "humidity": 39.8702,
+          "createdAt": "2025-04-15T19:40:33.000Z",
+          "updatedAt": "2025-04-15T19:40:33.000Z"
+      },
+      {
+          "id": 260,
+          "temperature": 25.947,
+          "humidity": 39.8916,
+          "createdAt": "2025-04-15T19:40:38.000Z",
+          "updatedAt": "2025-04-15T19:40:38.000Z"
+      },
+      {
+          "id": 261,
+          "temperature": 25.9356,
+          "humidity": 39.5288,
+          "createdAt": "2025-04-15T19:40:46.000Z",
+          "updatedAt": "2025-04-15T19:40:46.000Z"
+      },
+      {
+          "id": 262,
+          "temperature": 25.9222,
+          "humidity": 39.5723,
+          "createdAt": "2025-04-15T19:40:51.000Z",
+          "updatedAt": "2025-04-15T19:40:51.000Z"
+      },
+      {
+          "id": 263,
+          "temperature": 25.9369,
+          "humidity": 39.5397,
+          "createdAt": "2025-04-15T19:40:57.000Z",
+          "updatedAt": "2025-04-15T19:40:57.000Z"
+      },
+      {
+          "id": 264,
+          "temperature": 25.9552,
+          "humidity": 39.6268,
+          "createdAt": "2025-04-15T19:41:02.000Z",
+          "updatedAt": "2025-04-15T19:41:02.000Z"
+      },
+      {
+          "id": 265,
+          "temperature": 25.9563,
+          "humidity": 39.7074,
+          "createdAt": "2025-04-15T19:41:08.000Z",
+          "updatedAt": "2025-04-15T19:41:08.000Z"
+      },
+      {
+          "id": 266,
+          "temperature": 25.9718,
+          "humidity": 39.7311,
+          "createdAt": "2025-04-15T19:41:13.000Z",
+          "updatedAt": "2025-04-15T19:41:13.000Z"
+      },
+      {
+          "id": 267,
+          "temperature": 25.9546,
+          "humidity": 39.7573,
+          "createdAt": "2025-04-15T19:41:18.000Z",
+          "updatedAt": "2025-04-15T19:41:18.000Z"
+      },
+      {
+          "id": 268,
+          "temperature": 25.9661,
+          "humidity": 39.8498,
+          "createdAt": "2025-04-15T19:41:23.000Z",
+          "updatedAt": "2025-04-15T19:41:23.000Z"
+      },
+      {
+          "id": 269,
+          "temperature": 25.9512,
+          "humidity": 39.7709,
+          "createdAt": "2025-04-15T19:41:31.000Z",
+          "updatedAt": "2025-04-15T19:41:31.000Z"
+      },
+      {
+          "id": 270,
+          "temperature": 25.9472,
+          "humidity": 39.7738,
+          "createdAt": "2025-04-15T19:41:37.000Z",
+          "updatedAt": "2025-04-15T19:41:37.000Z"
+      },
+      {
+          "id": 271,
+          "temperature": 25.955,
+          "humidity": 39.8009,
+          "createdAt": "2025-04-15T19:41:42.000Z",
+          "updatedAt": "2025-04-15T19:41:42.000Z"
+      },
+      {
+          "id": 272,
+          "temperature": 25.9607,
+          "humidity": 39.7212,
+          "createdAt": "2025-04-15T19:41:48.000Z",
+          "updatedAt": "2025-04-15T19:41:48.000Z"
+      },
+      {
+          "id": 273,
+          "temperature": 25.9373,
+          "humidity": 39.7525,
+          "createdAt": "2025-04-15T19:41:53.000Z",
+          "updatedAt": "2025-04-15T19:41:53.000Z"
+      },
+      {
+          "id": 274,
+          "temperature": 25.9274,
+          "humidity": 39.7586,
+          "createdAt": "2025-04-15T19:41:58.000Z",
+          "updatedAt": "2025-04-15T19:41:58.000Z"
+      },
+      {
+          "id": 275,
+          "temperature": 25.9573,
+          "humidity": 39.7396,
+          "createdAt": "2025-04-15T19:42:04.000Z",
+          "updatedAt": "2025-04-15T19:42:04.000Z"
+      },
+      {
+          "id": 276,
+          "temperature": 25.9411,
+          "humidity": 39.7109,
+          "createdAt": "2025-04-15T19:42:09.000Z",
+          "updatedAt": "2025-04-15T19:42:09.000Z"
+      },
+      {
+          "id": 277,
+          "temperature": 25.9407,
+          "humidity": 39.713,
+          "createdAt": "2025-04-15T19:42:14.000Z",
+          "updatedAt": "2025-04-15T19:42:14.000Z"
+      },
+      {
+          "id": 278,
+          "temperature": 25.9224,
+          "humidity": 39.6323,
+          "createdAt": "2025-04-15T19:42:19.000Z",
+          "updatedAt": "2025-04-15T19:42:19.000Z"
+      },
+      {
+          "id": 279,
+          "temperature": 25.9365,
+          "humidity": 39.643,
+          "createdAt": "2025-04-15T19:42:24.000Z",
+          "updatedAt": "2025-04-15T19:42:24.000Z"
+      },
+      {
+          "id": 280,
+          "temperature": 25.9169,
+          "humidity": 39.6574,
+          "createdAt": "2025-04-15T19:42:30.000Z",
+          "updatedAt": "2025-04-15T19:42:30.000Z"
+      },
+      {
+          "id": 281,
+          "temperature": 25.9224,
+          "humidity": 39.6793,
+          "createdAt": "2025-04-15T19:42:35.000Z",
+          "updatedAt": "2025-04-15T19:42:35.000Z"
+      },
+      {
+          "id": 282,
+          "temperature": 25.9161,
+          "humidity": 39.6578,
+          "createdAt": "2025-04-15T19:42:40.000Z",
+          "updatedAt": "2025-04-15T19:42:40.000Z"
+      },
+      {
+          "id": 283,
+          "temperature": 25.9045,
+          "humidity": 39.7284,
+          "createdAt": "2025-04-15T19:42:45.000Z",
+          "updatedAt": "2025-04-15T19:42:45.000Z"
+      },
+      {
+          "id": 284,
+          "temperature": 25.9218,
+          "humidity": 39.7131,
+          "createdAt": "2025-04-15T19:42:50.000Z",
+          "updatedAt": "2025-04-15T19:42:50.000Z"
+      },
+      {
+          "id": 285,
+          "temperature": 25.9083,
+          "humidity": 39.735,
+          "createdAt": "2025-04-15T19:42:55.000Z",
+          "updatedAt": "2025-04-15T19:42:55.000Z"
+      },
+      {
+          "id": 286,
+          "temperature": 25.9277,
+          "humidity": 39.7285,
+          "createdAt": "2025-04-15T19:43:02.000Z",
+          "updatedAt": "2025-04-15T19:43:02.000Z"
+      },
+      {
+          "id": 287,
+          "temperature": 25.9136,
+          "humidity": 39.6584,
+          "createdAt": "2025-04-15T19:43:11.000Z",
+          "updatedAt": "2025-04-15T19:43:11.000Z"
+      },
+      {
+          "id": 288,
+          "temperature": 25.8928,
+          "humidity": 39.2821,
+          "createdAt": "2025-04-15T19:43:16.000Z",
+          "updatedAt": "2025-04-15T19:43:16.000Z"
+      },
+      {
+          "id": 289,
+          "temperature": 25.9281,
+          "humidity": 39.2912,
+          "createdAt": "2025-04-15T19:43:22.000Z",
+          "updatedAt": "2025-04-15T19:43:22.000Z"
+      },
+      {
+          "id": 290,
+          "temperature": 25.9245,
+          "humidity": 39.3317,
+          "createdAt": "2025-04-15T19:43:29.000Z",
+          "updatedAt": "2025-04-15T19:43:29.000Z"
+      },
+      {
+          "id": 291,
+          "temperature": 25.9544,
+          "humidity": 39.5008,
+          "createdAt": "2025-04-15T19:43:34.000Z",
+          "updatedAt": "2025-04-15T19:43:34.000Z"
+      },
+      {
+          "id": 292,
+          "temperature": 25.9537,
+          "humidity": 39.5212,
+          "createdAt": "2025-04-15T19:43:39.000Z",
+          "updatedAt": "2025-04-15T19:43:39.000Z"
+      },
+      {
+          "id": 293,
+          "temperature": 25.959,
+          "humidity": 39.3974,
+          "createdAt": "2025-04-15T19:43:44.000Z",
+          "updatedAt": "2025-04-15T19:43:44.000Z"
+      },
+      {
+          "id": 294,
+          "temperature": 25.9691,
+          "humidity": 39.413,
+          "createdAt": "2025-04-15T19:43:50.000Z",
+          "updatedAt": "2025-04-15T19:43:50.000Z"
+      },
+      {
+          "id": 295,
+          "temperature": 25.9632,
+          "humidity": 39.5136,
+          "createdAt": "2025-04-15T19:43:55.000Z",
+          "updatedAt": "2025-04-15T19:43:55.000Z"
+      },
+      {
+          "id": 296,
+          "temperature": 25.9642,
+          "humidity": 39.4933,
+          "createdAt": "2025-04-15T19:44:03.000Z",
+          "updatedAt": "2025-04-15T19:44:03.000Z"
+      },
+      {
+          "id": 297,
+          "temperature": 25.9857,
+          "humidity": 39.4475,
+          "createdAt": "2025-04-15T19:44:11.000Z",
+          "updatedAt": "2025-04-15T19:44:11.000Z"
+      },
+      {
+          "id": 298,
+          "temperature": 25.9867,
+          "humidity": 39.3888,
+          "createdAt": "2025-04-15T19:44:16.000Z",
+          "updatedAt": "2025-04-15T19:44:16.000Z"
+      },
+      {
+          "id": 299,
+          "temperature": 25.9689,
+          "humidity": 39.3603,
+          "createdAt": "2025-04-15T19:44:21.000Z",
+          "updatedAt": "2025-04-15T19:44:21.000Z"
+      },
+      {
+          "id": 300,
+          "temperature": 25.9779,
+          "humidity": 39.3805,
+          "createdAt": "2025-04-15T19:44:26.000Z",
+          "updatedAt": "2025-04-15T19:44:26.000Z"
+      },
+      {
+          "id": 301,
+          "temperature": 25.9811,
+          "humidity": 39.374,
+          "createdAt": "2025-04-15T19:44:32.000Z",
+          "updatedAt": "2025-04-15T19:44:32.000Z"
+      },
+      {
+          "id": 302,
+          "temperature": 25.9687,
+          "humidity": 39.2641,
+          "createdAt": "2025-04-15T19:44:37.000Z",
+          "updatedAt": "2025-04-15T19:44:37.000Z"
+      },
+      {
+          "id": 303,
+          "temperature": 26.0012,
+          "humidity": 39.0789,
+          "createdAt": "2025-04-15T19:44:42.000Z",
+          "updatedAt": "2025-04-15T19:44:42.000Z"
+      },
+      {
+          "id": 304,
+          "temperature": 25.9953,
+          "humidity": 39.3065,
+          "createdAt": "2025-04-15T19:44:47.000Z",
+          "updatedAt": "2025-04-15T19:44:47.000Z"
+      },
+      {
+          "id": 305,
+          "temperature": 25.9827,
+          "humidity": 39.4286,
+          "createdAt": "2025-04-15T19:44:52.000Z",
+          "updatedAt": "2025-04-15T19:44:52.000Z"
+      },
+      {
+          "id": 306,
+          "temperature": 25.9956,
+          "humidity": 39.5339,
+          "createdAt": "2025-04-15T19:44:57.000Z",
+          "updatedAt": "2025-04-15T19:44:57.000Z"
+      },
+      {
+          "id": 307,
+          "temperature": 26.0159,
+          "humidity": 39.6995,
+          "createdAt": "2025-04-15T19:45:02.000Z",
+          "updatedAt": "2025-04-15T19:45:02.000Z"
+      },
+      {
+          "id": 308,
+          "temperature": 26.0292,
+          "humidity": 39.6901,
+          "createdAt": "2025-04-15T19:45:08.000Z",
+          "updatedAt": "2025-04-15T19:45:08.000Z"
+      },
+      {
+          "id": 309,
+          "temperature": 26.0086,
+          "humidity": 39.6124,
+          "createdAt": "2025-04-15T19:45:13.000Z",
+          "updatedAt": "2025-04-15T19:45:13.000Z"
+      },
+      {
+          "id": 310,
+          "temperature": 26.03,
+          "humidity": 39.477,
+          "createdAt": "2025-04-15T19:45:18.000Z",
+          "updatedAt": "2025-04-15T19:45:18.000Z"
+      },
+      {
+          "id": 311,
+          "temperature": 26.0311,
+          "humidity": 39.3933,
+          "createdAt": "2025-04-15T19:45:23.000Z",
+          "updatedAt": "2025-04-15T19:45:23.000Z"
+      },
+      {
+          "id": 312,
+          "temperature": 26.0349,
+          "humidity": 39.2739,
+          "createdAt": "2025-04-15T19:45:29.000Z",
+          "updatedAt": "2025-04-15T19:45:29.000Z"
+      },
+      {
+          "id": 313,
+          "temperature": 26.0273,
+          "humidity": 39.2282,
+          "createdAt": "2025-04-15T19:45:34.000Z",
+          "updatedAt": "2025-04-15T19:45:34.000Z"
+      },
+      {
+          "id": 314,
+          "temperature": 26.0212,
+          "humidity": 39.242,
+          "createdAt": "2025-04-15T19:45:39.000Z",
+          "updatedAt": "2025-04-15T19:45:39.000Z"
+      },
+      {
+          "id": 315,
+          "temperature": 26.026,
+          "humidity": 38.9449,
+          "createdAt": "2025-04-15T19:45:45.000Z",
+          "updatedAt": "2025-04-15T19:45:45.000Z"
+      },
+      {
+          "id": 316,
+          "temperature": 26.0311,
+          "humidity": 38.8556,
+          "createdAt": "2025-04-15T19:45:52.000Z",
+          "updatedAt": "2025-04-15T19:45:52.000Z"
+      },
+      {
+          "id": 317,
+          "temperature": 26.03,
+          "humidity": 38.8365,
+          "createdAt": "2025-04-15T19:45:57.000Z",
+          "updatedAt": "2025-04-15T19:45:57.000Z"
+      },
+      {
+          "id": 318,
+          "temperature": 26.0271,
+          "humidity": 38.8895,
+          "createdAt": "2025-04-15T19:46:02.000Z",
+          "updatedAt": "2025-04-15T19:46:02.000Z"
+      },
+      {
+          "id": 319,
+          "temperature": 26.0231,
+          "humidity": 38.9384,
+          "createdAt": "2025-04-15T19:46:07.000Z",
+          "updatedAt": "2025-04-15T19:46:07.000Z"
+      },
+      {
+          "id": 320,
+          "temperature": 26.029,
+          "humidity": 38.9681,
+          "createdAt": "2025-04-15T19:46:13.000Z",
+          "updatedAt": "2025-04-15T19:46:13.000Z"
+      },
+      {
+          "id": 321,
+          "temperature": 26.0473,
+          "humidity": 38.9977,
+          "createdAt": "2025-04-15T19:46:19.000Z",
+          "updatedAt": "2025-04-15T19:46:19.000Z"
+      },
+      {
+          "id": 322,
+          "temperature": 26.0342,
+          "humidity": 39.0618,
+          "createdAt": "2025-04-15T19:46:24.000Z",
+          "updatedAt": "2025-04-15T19:46:24.000Z"
+      },
+      {
+          "id": 323,
+          "temperature": 26.0368,
+          "humidity": 39.1809,
+          "createdAt": "2025-04-15T19:46:29.000Z",
+          "updatedAt": "2025-04-15T19:46:29.000Z"
+      },
+      {
+          "id": 324,
+          "temperature": 26.0517,
+          "humidity": 39.1979,
+          "createdAt": "2025-04-15T19:46:34.000Z",
+          "updatedAt": "2025-04-15T19:46:34.000Z"
+      },
+      {
+          "id": 325,
+          "temperature": 26.0361,
+          "humidity": 39.2566,
+          "createdAt": "2025-04-15T19:46:40.000Z",
+          "updatedAt": "2025-04-15T19:46:40.000Z"
+      },
+      {
+          "id": 326,
+          "temperature": 26.0416,
+          "humidity": 39.3128,
+          "createdAt": "2025-04-15T19:46:45.000Z",
+          "updatedAt": "2025-04-15T19:46:45.000Z"
+      },
+      {
+          "id": 327,
+          "temperature": 26.0506,
+          "humidity": 39.364,
+          "createdAt": "2025-04-15T19:46:50.000Z",
+          "updatedAt": "2025-04-15T19:46:50.000Z"
+      },
+      {
+          "id": 328,
+          "temperature": 26.0471,
+          "humidity": 39.3831,
+          "createdAt": "2025-04-15T19:46:55.000Z",
+          "updatedAt": "2025-04-15T19:46:55.000Z"
+      },
+      {
+          "id": 329,
+          "temperature": 26.0206,
+          "humidity": 39.3742,
+          "createdAt": "2025-04-15T19:47:00.000Z",
+          "updatedAt": "2025-04-15T19:47:00.000Z"
+      },
+      {
+          "id": 330,
+          "temperature": 26.0183,
+          "humidity": 39.3496,
+          "createdAt": "2025-04-15T19:47:06.000Z",
+          "updatedAt": "2025-04-15T19:47:06.000Z"
+      },
+      {
+          "id": 331,
+          "temperature": 26.0286,
+          "humidity": 39.3824,
+          "createdAt": "2025-04-15T19:47:11.000Z",
+          "updatedAt": "2025-04-15T19:47:11.000Z"
+      },
+      {
+          "id": 332,
+          "temperature": 26.0387,
+          "humidity": 39.3859,
+          "createdAt": "2025-04-15T19:47:16.000Z",
+          "updatedAt": "2025-04-15T19:47:16.000Z"
+      },
+      {
+          "id": 333,
+          "temperature": 26.0571,
+          "humidity": 39.5047,
+          "createdAt": "2025-04-15T19:47:21.000Z",
+          "updatedAt": "2025-04-15T19:47:21.000Z"
+      },
+      {
+          "id": 334,
+          "temperature": 26.066,
+          "humidity": 39.5846,
+          "createdAt": "2025-04-15T19:47:30.000Z",
+          "updatedAt": "2025-04-15T19:47:30.000Z"
+      },
+      {
+          "id": 335,
+          "temperature": 26.0822,
+          "humidity": 39.8027,
+          "createdAt": "2025-04-15T19:47:35.000Z",
+          "updatedAt": "2025-04-15T19:47:35.000Z"
+      },
+      {
+          "id": 336,
+          "temperature": 26.1335,
+          "humidity": 39.7198,
+          "createdAt": "2025-04-15T19:47:40.000Z",
+          "updatedAt": "2025-04-15T19:47:40.000Z"
+      },
+      {
+          "id": 337,
+          "temperature": 26.1202,
+          "humidity": 39.8764,
+          "createdAt": "2025-04-15T19:47:46.000Z",
+          "updatedAt": "2025-04-15T19:47:46.000Z"
+      },
+      {
+          "id": 338,
+          "temperature": 26.1223,
+          "humidity": 39.8154,
+          "createdAt": "2025-04-15T19:47:51.000Z",
+          "updatedAt": "2025-04-15T19:47:51.000Z"
+      },
+      {
+          "id": 339,
+          "temperature": 26.108,
+          "humidity": 39.4325,
+          "createdAt": "2025-04-15T19:47:56.000Z",
+          "updatedAt": "2025-04-15T19:47:56.000Z"
+      },
+      {
+          "id": 340,
+          "temperature": 26.0935,
+          "humidity": 39.1364,
+          "createdAt": "2025-04-15T19:48:01.000Z",
+          "updatedAt": "2025-04-15T19:48:01.000Z"
+      },
+      {
+          "id": 341,
+          "temperature": 26.0946,
+          "humidity": 39.0169,
+          "createdAt": "2025-04-15T19:48:06.000Z",
+          "updatedAt": "2025-04-15T19:48:06.000Z"
+      },
+      {
+          "id": 342,
+          "temperature": 26.1122,
+          "humidity": 39.1582,
+          "createdAt": "2025-04-15T19:48:11.000Z",
+          "updatedAt": "2025-04-15T19:48:11.000Z"
+      },
+      {
+          "id": 343,
+          "temperature": 26.1448,
+          "humidity": 39.2723,
+          "createdAt": "2025-04-15T19:48:17.000Z",
+          "updatedAt": "2025-04-15T19:48:17.000Z"
+      },
+      {
+          "id": 344,
+          "temperature": 26.1084,
+          "humidity": 39.3517,
+          "createdAt": "2025-04-15T19:48:22.000Z",
+          "updatedAt": "2025-04-15T19:48:22.000Z"
+      },
+      {
+          "id": 345,
+          "temperature": 26.1051,
+          "humidity": 39.3742,
+          "createdAt": "2025-04-15T19:48:27.000Z",
+          "updatedAt": "2025-04-15T19:48:27.000Z"
+      },
+      {
+          "id": 346,
+          "temperature": 26.0612,
+          "humidity": 39.3669,
+          "createdAt": "2025-04-15T19:48:33.000Z",
+          "updatedAt": "2025-04-15T19:48:33.000Z"
+      },
+      {
+          "id": 347,
+          "temperature": 26.0815,
+          "humidity": 39.368,
+          "createdAt": "2025-04-15T19:48:38.000Z",
+          "updatedAt": "2025-04-15T19:48:38.000Z"
+      },
+      {
+          "id": 348,
+          "temperature": 26.0798,
+          "humidity": 39.3645,
+          "createdAt": "2025-04-15T19:48:43.000Z",
+          "updatedAt": "2025-04-15T19:48:43.000Z"
+      },
+      {
+          "id": 349,
+          "temperature": 26.0876,
+          "humidity": 39.2555,
+          "createdAt": "2025-04-15T19:48:48.000Z",
+          "updatedAt": "2025-04-15T19:48:48.000Z"
+      },
+      {
+          "id": 350,
+          "temperature": 26.1093,
+          "humidity": 39.2215,
+          "createdAt": "2025-04-15T19:48:53.000Z",
+          "updatedAt": "2025-04-15T19:48:53.000Z"
+      },
+      {
+          "id": 351,
+          "temperature": 26.1032,
+          "humidity": 39.2932,
+          "createdAt": "2025-04-15T19:48:58.000Z",
+          "updatedAt": "2025-04-15T19:48:58.000Z"
+      },
+      {
+          "id": 352,
+          "temperature": 26.0845,
+          "humidity": 39.2995,
+          "createdAt": "2025-04-15T19:49:04.000Z",
+          "updatedAt": "2025-04-15T19:49:04.000Z"
+      },
+      {
+          "id": 353,
+          "temperature": 26.0946,
+          "humidity": 39.3552,
+          "createdAt": "2025-04-15T19:49:09.000Z",
+          "updatedAt": "2025-04-15T19:49:09.000Z"
+      },
+      {
+          "id": 354,
+          "temperature": 26.0635,
+          "humidity": 39.4353,
+          "createdAt": "2025-04-15T19:49:14.000Z",
+          "updatedAt": "2025-04-15T19:49:14.000Z"
+      },
+      {
+          "id": 355,
+          "temperature": 26.0935,
+          "humidity": 39.7442,
+          "createdAt": "2025-04-15T19:49:19.000Z",
+          "updatedAt": "2025-04-15T19:49:19.000Z"
+      },
+      {
+          "id": 356,
+          "temperature": 26.0971,
+          "humidity": 39.8448,
+          "createdAt": "2025-04-15T19:49:24.000Z",
+          "updatedAt": "2025-04-15T19:49:24.000Z"
+      },
+      {
+          "id": 357,
+          "temperature": 26.1051,
+          "humidity": 39.8778,
+          "createdAt": "2025-04-15T19:49:29.000Z",
+          "updatedAt": "2025-04-15T19:49:29.000Z"
+      },
+      {
+          "id": 358,
+          "temperature": 26.1023,
+          "humidity": 39.9559,
+          "createdAt": "2025-04-15T19:49:35.000Z",
+          "updatedAt": "2025-04-15T19:49:35.000Z"
+      },
+      {
+          "id": 359,
+          "temperature": 26.1314,
+          "humidity": 39.8772,
+          "createdAt": "2025-04-15T19:49:40.000Z",
+          "updatedAt": "2025-04-15T19:49:40.000Z"
+      },
+      {
+          "id": 360,
+          "temperature": 26.1057,
+          "humidity": 39.5651,
+          "createdAt": "2025-04-15T19:49:45.000Z",
+          "updatedAt": "2025-04-15T19:49:45.000Z"
+      },
+      {
+          "id": 361,
+          "temperature": 26.1206,
+          "humidity": 39.4494,
+          "createdAt": "2025-04-15T19:49:50.000Z",
+          "updatedAt": "2025-04-15T19:49:50.000Z"
+      },
+      {
+          "id": 362,
+          "temperature": 26.1086,
+          "humidity": 39.4269,
+          "createdAt": "2025-04-15T19:49:55.000Z",
+          "updatedAt": "2025-04-15T19:49:55.000Z"
+      },
+      {
+          "id": 363,
+          "temperature": 26.1347,
+          "humidity": 39.3836,
+          "createdAt": "2025-04-15T19:50:01.000Z",
+          "updatedAt": "2025-04-15T19:50:01.000Z"
+      },
+      {
+          "id": 364,
+          "temperature": 26.1419,
+          "humidity": 39.3335,
+          "createdAt": "2025-04-15T19:50:06.000Z",
+          "updatedAt": "2025-04-15T19:50:06.000Z"
+      },
+      {
+          "id": 365,
+          "temperature": 26.1408,
+          "humidity": 39.2999,
+          "createdAt": "2025-04-15T19:50:11.000Z",
+          "updatedAt": "2025-04-15T19:50:11.000Z"
+      },
+      {
+          "id": 366,
+          "temperature": 26.1694,
+          "humidity": 39.3044,
+          "createdAt": "2025-04-15T19:50:16.000Z",
+          "updatedAt": "2025-04-15T19:50:16.000Z"
+      },
+      {
+          "id": 367,
+          "temperature": 26.1803,
+          "humidity": 39.253,
+          "createdAt": "2025-04-15T19:50:21.000Z",
+          "updatedAt": "2025-04-15T19:50:21.000Z"
+      },
+      {
+          "id": 368,
+          "temperature": 26.166,
+          "humidity": 39.0792,
+          "createdAt": "2025-04-15T19:50:27.000Z",
+          "updatedAt": "2025-04-15T19:50:27.000Z"
+      },
+      {
+          "id": 369,
+          "temperature": 26.1833,
+          "humidity": 38.8075,
+          "createdAt": "2025-04-15T19:50:32.000Z",
+          "updatedAt": "2025-04-15T19:50:32.000Z"
+      },
+      {
+          "id": 370,
+          "temperature": 26.1909,
+          "humidity": 38.8444,
+          "createdAt": "2025-04-15T19:50:37.000Z",
+          "updatedAt": "2025-04-15T19:50:37.000Z"
+      }
+  ],
+  "message": "Sensors fetched successfully",
+  "ok": true
+}

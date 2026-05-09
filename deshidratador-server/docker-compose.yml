@@ -1,0 +1,45 @@
+# version: '3.8'
+services:
+  database:
+    image: mariadb:jammy
+    container_name: mariadb-be-scesi
+    env_file: .env
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD} # mypassword
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      DB_HOST: ${DB_HOST}
+    ports:
+      - "${DB_PORT}:3306"
+    volumes:
+      - maria_db:/var/lib/mysql
+
+  
+  # node-app:
+  #   # build: .
+  #   restart: always
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   env_file: .env
+  #   container_name: node-server
+  #   environment:
+  #     - MYSQL_DATABASE=${MYSQL_DATABASE}
+  #     - MYSQL_USER=${MYSQL_USER}
+  #     - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+  #     - DB_PASSWORD=${DB_PASSWORD}
+  #     - DB_HOST=${DB_HOST}
+  #     - DB_PORT=${DB_PORT}
+  #   depends_on:
+  #     - database
+  #   ports:
+  #     - "${NODE_PORT}:${NODE_PORT}"
+  #   volumes:
+  #     - .:/app
+  #     - node_modules:/app/node_modules 
+
+volumes:
+  node_modules:
+  maria_db: 

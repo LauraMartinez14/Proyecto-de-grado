@@ -1,0 +1,1 @@
+export type SOCKET_CHANNELS = "recive_sensor_data" | "send_sensor_data" | "recive_config_data" | "send_config_data" | "new_notification";
