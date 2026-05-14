@@ -28,15 +28,15 @@ const HomePage = () => {
       <div className="grid grid-cols-3 gap-5 pb-6">
         <Card
           title="Temperatura"
-          value={${numberParser(temperature)} °C}
+          value={`${numberParser(temperature)} °C`}
           icon="./temperatureIcon.svg"
         />
         <Card
           title="Humedad"
-          value={${numberParser(humidity)} %}
+          value={`${numberParser(humidity)} %`}
           icon="./humidityIcon.svg"
         />
-        <Card title="Aire" value={${air} %} icon="./airIcon.svg" />
+        <Card title="Aire" value={`${air} %`} icon="./airIcon.svg" />
       </div>
       <div className="grid grid-cols-2 gap-5">
         <div className="bg-white p-8 rounded-2xl flex justify-center items-center">
@@ -47,7 +47,7 @@ const HomePage = () => {
             index="hour"
             categories={["temperature"]}
             valueFormatter={(number: number) =>
-              ${Intl.NumberFormat("us").format(number).toString()}°C
+              `${Intl.NumberFormat("us").format(number).toString()}°C`
             }
             yAxisWidth={30}
             // startEndOnly={true}
@@ -83,8 +83,7 @@ const HomePage = () => {
             index="hour"
             categories={["humidity"]}
             valueFormatter={(number: number) =>
-              ${Intl.NumberFormat("us").format(number).toString()}°C
-            }
+             `${Intl.NumberFormat("us").format(number).toString()}°C`}
             yAxisWidth={30}
             // startEndOnly={true}
             connectNulls
