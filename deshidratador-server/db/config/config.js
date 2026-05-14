@@ -7,7 +7,7 @@ module.exports = {
     database: process.env.MYSQL_DATABASE,
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
-    dialect: 'mariadb',
+    dialect: 'mysql',
   },
   test: {
     username: process.env.MYSQL_USER,
@@ -15,7 +15,7 @@ module.exports = {
     database: process.env.MYSQL_TEST_DATABASE,
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
-    dialect: 'mariadb',
+    dialect: 'mysql',
   },
   production: {
     username: process.env.MYSQL_USER,
@@ -23,6 +23,6 @@ module.exports = {
     database: process.env.MYSQL_PROD_DATABASE,
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
-    dialect: 'mariadb',
+    dialect: 'mysql',
   }
 };

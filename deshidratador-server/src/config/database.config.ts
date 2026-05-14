@@ -14,9 +14,10 @@ export const sequelize = new Sequelize(
   {
     host: DB_HOST,
     port: Number(DB_PORT),
-    logging: false,
+    logging: true,
     // models: [__dirname + '/../mudules'],
-    dialect: 'mariadb',
+    dialect: 'mysql',
+    sync: { force: true },
     define: {
       timestamps: true,
     },

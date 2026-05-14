@@ -2,7 +2,7 @@
 services:
   database:
     image: mariadb:jammy
-    container_name: mariadb-be-scesi
+    container_name: mariadb-be
     env_file:
       - ./deshidratador-server/.env
     restart: always
@@ -22,7 +22,7 @@ services:
       dockerfile: Dockerfile
     container_name: node-server
     restart: always
-    env_file: 
+    env_file:
       - ./deshidratador-server/.env
     environment:
       - TZ=America/La_Paz
@@ -39,7 +39,7 @@ services:
     volumes:
       - ./deshidratador-server:/app
       - /app/node_modules
-  
+
   web-app:
     image: node:20-alpine
     container_name: web-app
@@ -66,4 +66,4 @@ services:
 
 volumes:
   node_modules:
-  maria_db: 
+  maria_db:
