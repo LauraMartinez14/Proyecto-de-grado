@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router";
 import { useEffect } from "react";
 import "./App.css";
 
@@ -15,6 +15,9 @@ import HomePage from "./pages/HomePage/HomePage";
 import { socket } from "./api/sockets";
 import { SOCKET_CHANNELS } from "./types/sockets";
 import { INotification } from "./types/notification.type";
+import { sensorsDailyDataActions } from "./store/slices/dailySensorsData/sensorsDailyData.slice";
+import LoginPage from "./pages/LoginPage/LoginPage";
+import { useAuth } from "./auth/AuthProvider";
 
 function App() {
   const dispatch = useAppDispatch();
@@ -30,7 +33,8 @@ function App() {
 
     socket.on<SOCKET_CHANNELS>('send_sensor_data', (data: SendSensorDataType) => {
       console.log('sensor_data from server', data);
-      dispatch(sensorsDataActions.setCurrentData(data))
+      dispatch(sensorsDataActions.setCurrentData(data));
+      dispatch(sensorsDailyDataActions.addSensorRecords(data))
     });
 
     socket.on<SOCKET_CHANNELS>('send_config_data', (data) => {
@@ -50,15 +54,25 @@ function App() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dispatch, socket]);
 
+  const auth = useAuth();
+
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LayoutDashboard/>}>
-          <Route index element={<HomePage/>}/>
-          <Route path="reportes" element={<ReportsPage/>}/>
-          <Route path="estadisticas" element={<StatsPage/>}/>
-          <Route path="notificaciones" element={<NotificationsPage/>}/>
-        </Route>
+        {auth.isAuthenticated ? (
+          <Route path="/" element={<LayoutDashboard />}>
+            <Route index element={<HomePage />} />
+            <Route path="reportes" element={<ReportsPage />} />
+            <Route path="estadisticas" element={<StatsPage />} />
+            <Route path="notificaciones" element={<NotificationsPage />} />
+            {/* <Route path="perfil" element={<ProfilePage />} /> */}
+          </Route>
+        ) : (
+          <>
+            <Route path="/" element={<LoginPage />} />
+            <Route path="*" element={<Navigate to="/" />} />
+          </>
+        )}
       </Routes>
     </BrowserRouter>
   );

@@ -1,6 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { temperatureData } from "../../../types/temperatureData";
 import { HumidityData } from "../../../types/humidityData";
+import { SendSensorDataType } from "../sensorsData";
 
 type SensorsDataSliceState = {
     tempData: temperatureData[]
@@ -38,7 +39,21 @@ export const sensorsDailyDataSlice = createSlice({
             state.isLoading = false   
             state.success = true
             state.message = null
-        }
+        },
+        addSensorRecords: (state, action: PayloadAction<SendSensorDataType>) => {
+            const temp: temperatureData = {
+                hour: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+                temperature: action.payload.temperature
+            };
+            const humi: HumidityData = {
+                hour: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+                humidity: action.payload.humidity
+            };
+
+            // radiation
+            state.tempData = [...state.tempData, temp];
+            state.humiData = [...state.humiData, humi];
+        },
     }
 })
 

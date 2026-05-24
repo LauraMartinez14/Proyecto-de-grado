@@ -4,6 +4,7 @@ import { sequelize } from './config/database.config';
 import { SERVER_PORT } from './config/env.config';
 import { initSocketServer } from './modules/sockets/io';
 import { createServer } from 'http'
+import { initializeAdmin } from './utils/bootstrap';
 
 async function connectWithRetry() {
   try {
@@ -22,6 +23,9 @@ async function startServer () {
     // await sequelize.authenticate();
     // console.log('Database connected');
     await sequelize.sync();
+    // await sequelize.sync({ force: true });
+
+    await initializeAdmin();
     
     const server = createServer(Server);
     initSocketServer(server);

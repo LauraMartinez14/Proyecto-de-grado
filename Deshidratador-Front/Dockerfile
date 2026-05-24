@@ -1,12 +1,18 @@
-FROM nginx:alpine
+FROM node:20-alpine3.19 AS builder
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY . .
+RUN npm run build
 
-# Copiar los archivos pre-compilados directamente
-COPY dist /usr/share/nginx/html
+FROM nginx:alpine AS runner
+RUN rm -rf /usr/share/nginx/html/*
 
-COPY ./nginx-deshidratador-app.conf /etc/nginx/nginx.conf
+# Copiar el build de Vite
+COPY --from=builder /app/dist /usr/share/nginx/html
 
-# Exponer el puerto 80
+# CAMBIO AQUÍ: Lo copiamos a conf.d/default.conf en lugar de reemplazar el nginx.conf global
+COPY ./nginx-deshidratador-app.conf /etc/nginx/conf.d/default.conf
+
 EXPOSE 80
-
-# Iniciar nginx
 CMD ["nginx", "-g", "daemon off;"]

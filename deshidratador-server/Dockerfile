@@ -1,31 +1,22 @@
-# Usar una imagen base más específica
-FROM node:20-alpine3.19
-
-# Agregar soporte para zonas horarias
+FROM node:20-alpine3.19 AS builder
 RUN apk add --no-cache tzdata
-
-# Instalar las dependencias necesarias
-RUN apk add --no-cache npm
-
 WORKDIR /app
 
-# Copiar archivos de dependencias
+# Install dependencies and build
 COPY package*.json ./
-
-# Instalar dependencias
-RUN npm install
-
-# Copiar el resto del código
+RUN npm ci
 COPY . .
-
-# Construir la aplicación
 RUN npm run build
 
-# Exponer el puerto explícitamente
-EXPOSE 3000
-
-# Configurar el entorno
+FROM node:20-alpine3.19 AS runner
+RUN apk add --no-cache tzdata
+WORKDIR /app
 ENV NODE_ENV=production
 
-# Iniciar la aplicación
+# Copy only what we need from builder
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/dist ./dist
+
+EXPOSE 3000
 CMD ["npm", "start"]

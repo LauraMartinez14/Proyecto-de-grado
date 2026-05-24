@@ -7,6 +7,12 @@ import sensorsRoutes from '../modules/environmentalSensorData/environmentalSenso
 import sendDataRoutes from '../modules/postdata/postdata.router'
 import notificationRoutes from '../modules/notifications/notification.routes'
 
+import loginRoutes from '../modules/auth/login.routes'
+import signoutRoutes from '../modules/auth/signout.routes'
+import refreshTokenRoutes from '../modules/auth/refreshToken.routes'
+import userRoutes from '../modules/auth/user.routes'
+import { authenticate } from '../modules/auth/authenticate';
+
 const router = Router();
 
 router.use('/check', healthRoutes);
@@ -16,7 +22,12 @@ router.use('/sensors', sensorsRoutes);
 router.use('/sendData', sendDataRoutes)
 router.use('/notifications', notificationRoutes);
 
-// defult response
+router.use('/login', loginRoutes);
+router.use('/signout', signoutRoutes);
+router.use('/refresh-token', refreshTokenRoutes);
+router.use('/user', authenticate, userRoutes);
+
+// default response
 router.use('/*', (req, res) => {
   console.log('request /*', req.route);
   res.status(404).send({

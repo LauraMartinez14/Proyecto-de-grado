@@ -55,10 +55,17 @@ async function deleteUser (id: string): Promise<number> {
   });
 }
 
+async function getByUsername(username: string): Promise<User | null> {
+  return await User.findOne({ 
+    where: { username: username } 
+  });
+}
+
 export default {
   getAllUsers,
   getById,
   createUser,
   updateUser,
   deleteUser,
+  getByUsername
 }
