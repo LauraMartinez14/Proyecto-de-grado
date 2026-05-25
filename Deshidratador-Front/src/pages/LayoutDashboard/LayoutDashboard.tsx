@@ -1,6 +1,6 @@
-import { Link, Outlet } from "react-router";
-import Sidebar from "../../components/Sidebar/Sidebar";
+import { Outlet } from "react-router";
 import { useAuth } from "../../auth/AuthProvider";
+import Sidebar from "../../components/Sidebar/Sidebar";
 // import logo from "../../assets/img/logo.png";
 
 const LayoutDashboard = () => {

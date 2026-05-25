@@ -1,6 +1,5 @@
 import { Router, Request, Response } from 'express';
 import { jsonResponse } from '../../lib/jsonResponse';
-import { error, log } from 'console';
 import usersService from '../users/users.service';
 import bcrypt from 'bcrypt';
 import { getUserInfo } from '../../lib/getUserInfo';

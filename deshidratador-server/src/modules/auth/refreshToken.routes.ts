@@ -1,9 +1,7 @@
 import { Router, Request, Response } from 'express';
 import { getTokenFromHeader } from './getTokenFromHeader';
 import { jsonResponse } from '../../lib/jsonResponse';
-import Token from './token.model';
 import tokenService from './token.service';
-import { error } from 'console';
 import { verifyRefreshToken } from './verifyTokens';
 import { generateAccessToken } from './generateTokens';
 
