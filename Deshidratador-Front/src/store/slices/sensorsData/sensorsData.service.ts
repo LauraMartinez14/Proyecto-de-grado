@@ -6,7 +6,7 @@ import api from "../../../api/axios";
 import { presetsData } from "../../../types/presetsData";
 
 
-const API_URL = 'http://localhost:3000/api'
+// const API_URL = 'http://localhost:3000/api'
 
 interface BackendSensorData {
   id: number;
@@ -40,7 +40,7 @@ export const getAllData = () => async (dispatch: Dispatch) => {
 
     const backendData: BackendResponse<BackendSensorData[]> = response.data;
 
-    const transformedData: sensorsData[] = backendData.data.map((item) => ({
+    const transformedData: sensorsData[] = backendData?.data?.map((item) => ({
       temperature: item.temperature,
       humidity: item.humidity,
       date: formatDate(item.createdAt),
@@ -94,7 +94,7 @@ export const sendConfigPresetFruitData = (preset: presetsData) => async (dispatc
   try {
     dispatch(sensorsDataActions.clean());
     dispatch(sensorsDataActions.setIsLoading(true));
-    const {data, status} = await api.post(`${API_URL}/sendData/changePreset`, preset);
+    const {data, status} = await api.post(`/sendData/changePreset`, preset);
 
     if (status === 200 && data.ok) {
       dispatch(sensorsDataActions.setMessage("Config preset fruit data sent successfully"));
